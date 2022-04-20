@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/progress.marks
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f CMakeFiles/Makefile2 Singleton/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f CMakeFiles/Makefile2 Singleton/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,44 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f CMakeFiles/Makefile2 Singleton/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f CMakeFiles/Makefile2 Singleton/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named method_factory
+# Convenience name for target.
+Singleton/CMakeFiles/singleton.dir/rule:
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f CMakeFiles/Makefile2 Singleton/CMakeFiles/singleton.dir/rule
+.PHONY : Singleton/CMakeFiles/singleton.dir/rule
 
-# Build rule for target.
-method_factory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 method_factory
-.PHONY : method_factory
+# Convenience name for target.
+singleton: Singleton/CMakeFiles/singleton.dir/rule
 
-# fast build rule for target.
-method_factory/fast:
-	$(MAKE) -f MethodFactory/CMakeFiles/method_factory.dir/build.make MethodFactory/CMakeFiles/method_factory.dir/build
-.PHONY : method_factory/fast
-
-#=============================================================================
-# Target rules for targets named singleton
-
-# Build rule for target.
-singleton: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 singleton
 .PHONY : singleton
 
 # fast build rule for target.
 singleton/fast:
-	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/build
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/build
 .PHONY : singleton/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -144,8 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... method_factory"
 	@echo "... singleton"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -157,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/thanglm/Thanglm/Proejcts/PatternDesign/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

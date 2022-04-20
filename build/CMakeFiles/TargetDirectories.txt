@@ -3,3 +3,6 @@
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/edit_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/method_factory.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/singleton.dir

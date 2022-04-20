@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/Singleton/Singleton.hpp
+string
+-
+iostream
+-
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/Singleton/main.cpp
+iostream
+-
+vector
+-
+unistd.h
+-
+thread
+-
+Singleton.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/Singleton/Singleton.hpp
+
