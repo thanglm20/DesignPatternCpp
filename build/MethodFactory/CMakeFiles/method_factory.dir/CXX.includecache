@@ -6,7 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Airplane.hpp
+Vehicle.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Vehicle.hpp
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Car.hpp
+Vehicle.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Vehicle.hpp
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Train.hpp
+Vehicle.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Vehicle.hpp
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/UserFactory.hpp
+memory
+-
+Train.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Train.hpp
+Airplane.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Airplane.hpp
+Car.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Car.hpp
+Vehicle.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Vehicle.hpp
+
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/Vehicle.hpp
+iostream
+-
+string
+-
+
 /media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/main.cpp
 iostream
 -
+vector
+-
+UserFactory.hpp
+/media/thanglm/Thanglm/Proejcts/PatternDesign/MethodFactory/UserFactory.hpp
 
