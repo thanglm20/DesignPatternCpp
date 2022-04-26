@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named method_factory
+# Target rules for targets named factory_method
 
 # Build rule for target.
-method_factory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 method_factory
-.PHONY : method_factory
+factory_method: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 factory_method
+.PHONY : factory_method
 
 # fast build rule for target.
-method_factory/fast:
-	$(MAKE) -f MethodFactory/CMakeFiles/method_factory.dir/build.make MethodFactory/CMakeFiles/method_factory.dir/build
-.PHONY : method_factory/fast
+factory_method/fast:
+	$(MAKE) -f FactoryMethod/CMakeFiles/factory_method.dir/build.make FactoryMethod/CMakeFiles/factory_method.dir/build
+.PHONY : factory_method/fast
 
 #=============================================================================
 # Target rules for targets named singleton
@@ -136,6 +136,19 @@ singleton/fast:
 	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/build
 .PHONY : singleton/fast
 
+#=============================================================================
+# Target rules for targets named builder
+
+# Build rule for target.
+builder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 builder
+.PHONY : builder
+
+# fast build rule for target.
+builder/fast:
+	$(MAKE) -f Builder/CMakeFiles/builder.dir/build.make Builder/CMakeFiles/builder.dir/build
+.PHONY : builder/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -144,8 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... method_factory"
+	@echo "... factory_method"
 	@echo "... singleton"
+	@echo "... builder"
 .PHONY : help
 
 

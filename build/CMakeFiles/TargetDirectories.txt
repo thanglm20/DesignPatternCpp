@@ -1,8 +1,11 @@
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/edit_cache.dir
-/media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/rebuild_cache.dir
-/media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/edit_cache.dir
-/media/thanglm/Thanglm/Proejcts/PatternDesign/build/MethodFactory/CMakeFiles/method_factory.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/FactoryMethod/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/FactoryMethod/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/FactoryMethod/CMakeFiles/factory_method.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/edit_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/CMakeFiles/singleton.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Builder/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Builder/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Builder/CMakeFiles/builder.dir

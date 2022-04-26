@@ -53,40 +53,61 @@ CMAKE_BINARY_DIR = /media/thanglm/Thanglm/Proejcts/PatternDesign/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: MethodFactory/all
+all: FactoryMethod/all
 all: Singleton/all
+all: Builder/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: MethodFactory/preinstall
+preinstall: FactoryMethod/preinstall
 preinstall: Singleton/preinstall
+preinstall: Builder/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: MethodFactory/clean
+clean: FactoryMethod/clean
 clean: Singleton/clean
+clean: Builder/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory MethodFactory
+# Directory level rules for directory Builder
 
 # Recursive "all" directory target.
-MethodFactory/all: MethodFactory/CMakeFiles/method_factory.dir/all
+Builder/all: Builder/CMakeFiles/builder.dir/all
 
-.PHONY : MethodFactory/all
+.PHONY : Builder/all
 
 # Recursive "preinstall" directory target.
-MethodFactory/preinstall:
+Builder/preinstall:
 
-.PHONY : MethodFactory/preinstall
+.PHONY : Builder/preinstall
 
 # Recursive "clean" directory target.
-MethodFactory/clean: MethodFactory/CMakeFiles/method_factory.dir/clean
+Builder/clean: Builder/CMakeFiles/builder.dir/clean
 
-.PHONY : MethodFactory/clean
+.PHONY : Builder/clean
+
+#=============================================================================
+# Directory level rules for directory FactoryMethod
+
+# Recursive "all" directory target.
+FactoryMethod/all: FactoryMethod/CMakeFiles/factory_method.dir/all
+
+.PHONY : FactoryMethod/all
+
+# Recursive "preinstall" directory target.
+FactoryMethod/preinstall:
+
+.PHONY : FactoryMethod/preinstall
+
+# Recursive "clean" directory target.
+FactoryMethod/clean: FactoryMethod/CMakeFiles/factory_method.dir/clean
+
+.PHONY : FactoryMethod/clean
 
 #=============================================================================
 # Directory level rules for directory Singleton
@@ -107,31 +128,31 @@ Singleton/clean: Singleton/CMakeFiles/singleton.dir/clean
 .PHONY : Singleton/clean
 
 #=============================================================================
-# Target rules for target MethodFactory/CMakeFiles/method_factory.dir
+# Target rules for target FactoryMethod/CMakeFiles/factory_method.dir
 
 # All Build rule for target.
-MethodFactory/CMakeFiles/method_factory.dir/all:
-	$(MAKE) -f MethodFactory/CMakeFiles/method_factory.dir/build.make MethodFactory/CMakeFiles/method_factory.dir/depend
-	$(MAKE) -f MethodFactory/CMakeFiles/method_factory.dir/build.make MethodFactory/CMakeFiles/method_factory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=1,2 "Built target method_factory"
-.PHONY : MethodFactory/CMakeFiles/method_factory.dir/all
+FactoryMethod/CMakeFiles/factory_method.dir/all:
+	$(MAKE) -f FactoryMethod/CMakeFiles/factory_method.dir/build.make FactoryMethod/CMakeFiles/factory_method.dir/depend
+	$(MAKE) -f FactoryMethod/CMakeFiles/factory_method.dir/build.make FactoryMethod/CMakeFiles/factory_method.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=3,4 "Built target factory_method"
+.PHONY : FactoryMethod/CMakeFiles/factory_method.dir/all
 
 # Build rule for subdir invocation for target.
-MethodFactory/CMakeFiles/method_factory.dir/rule: cmake_check_build_system
+FactoryMethod/CMakeFiles/factory_method.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 MethodFactory/CMakeFiles/method_factory.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 FactoryMethod/CMakeFiles/factory_method.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
-.PHONY : MethodFactory/CMakeFiles/method_factory.dir/rule
+.PHONY : FactoryMethod/CMakeFiles/factory_method.dir/rule
 
 # Convenience name for target.
-method_factory: MethodFactory/CMakeFiles/method_factory.dir/rule
+factory_method: FactoryMethod/CMakeFiles/factory_method.dir/rule
 
-.PHONY : method_factory
+.PHONY : factory_method
 
 # clean rule for target.
-MethodFactory/CMakeFiles/method_factory.dir/clean:
-	$(MAKE) -f MethodFactory/CMakeFiles/method_factory.dir/build.make MethodFactory/CMakeFiles/method_factory.dir/clean
-.PHONY : MethodFactory/CMakeFiles/method_factory.dir/clean
+FactoryMethod/CMakeFiles/factory_method.dir/clean:
+	$(MAKE) -f FactoryMethod/CMakeFiles/factory_method.dir/build.make FactoryMethod/CMakeFiles/factory_method.dir/clean
+.PHONY : FactoryMethod/CMakeFiles/factory_method.dir/clean
 
 #=============================================================================
 # Target rules for target Singleton/CMakeFiles/singleton.dir
@@ -140,7 +161,7 @@ MethodFactory/CMakeFiles/method_factory.dir/clean:
 Singleton/CMakeFiles/singleton.dir/all:
 	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/depend
 	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=3,4 "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=5,6 "Built target singleton"
 .PHONY : Singleton/CMakeFiles/singleton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -159,6 +180,33 @@ singleton: Singleton/CMakeFiles/singleton.dir/rule
 Singleton/CMakeFiles/singleton.dir/clean:
 	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/clean
 .PHONY : Singleton/CMakeFiles/singleton.dir/clean
+
+#=============================================================================
+# Target rules for target Builder/CMakeFiles/builder.dir
+
+# All Build rule for target.
+Builder/CMakeFiles/builder.dir/all:
+	$(MAKE) -f Builder/CMakeFiles/builder.dir/build.make Builder/CMakeFiles/builder.dir/depend
+	$(MAKE) -f Builder/CMakeFiles/builder.dir/build.make Builder/CMakeFiles/builder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=1,2 "Built target builder"
+.PHONY : Builder/CMakeFiles/builder.dir/all
+
+# Build rule for subdir invocation for target.
+Builder/CMakeFiles/builder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Builder/CMakeFiles/builder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : Builder/CMakeFiles/builder.dir/rule
+
+# Convenience name for target.
+builder: Builder/CMakeFiles/builder.dir/rule
+
+.PHONY : builder
+
+# clean rule for target.
+Builder/CMakeFiles/builder.dir/clean:
+	$(MAKE) -f Builder/CMakeFiles/builder.dir/build.make Builder/CMakeFiles/builder.dir/clean
+.PHONY : Builder/CMakeFiles/builder.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

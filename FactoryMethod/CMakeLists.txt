@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 3.10)
 
-project(method_factory)
+project(factory_method)
 
 file(GLOB SOURCES *.cpp)
 

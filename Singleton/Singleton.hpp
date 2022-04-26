@@ -5,17 +5,21 @@
 
 #include <string>
 #include <iostream>
-
+#include <mutex>
+#include <thread>
+#include <memory>
 class Singleton
 {
 private:
-    Singleton(){}
+    Singleton(std::string name): m_name(name){}
     ~Singleton(){}
-    static Singleton* m_instance;
+    static Singleton*  m_instance;
+    static std::mutex m_mutex;
+
     std::string m_name;
 public:
 
-    static Singleton* getInstance();
+    static Singleton* getInstance(std::string name);
     static void deleteInstance();
     //TODO
     void show()
@@ -26,13 +30,20 @@ public:
 
 
 
-Singleton* Singleton::getInstance()
+Singleton*  Singleton::getInstance(std::string name)
 {
-    std::cout << "Called getinstance in Singleton" << std::endl;
+    
+    m_mutex.lock();
     if(m_instance == nullptr)
     {
-        m_instance = new Singleton();
+        std::cout << "Create new object Singleton successfully" << std::endl;
+        m_instance = new Singleton(name);
     }
+    else
+        std::cout << "Existing object Singleton, return it" << std::endl;
+    m_mutex.unlock();
+    
+
     return m_instance;
 }
 
@@ -41,6 +52,6 @@ void Singleton::deleteInstance()
     if(m_instance) delete m_instance;
 }
 
-
+std::mutex Singleton::m_mutex ;
 Singleton* Singleton::m_instance = nullptr;
 #endif
