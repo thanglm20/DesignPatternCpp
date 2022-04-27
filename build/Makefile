@@ -120,7 +120,7 @@ factory_method: cmake_check_build_system
 
 # fast build rule for target.
 factory_method/fast:
-	$(MAKE) -f FactoryMethod/CMakeFiles/factory_method.dir/build.make FactoryMethod/CMakeFiles/factory_method.dir/build
+	$(MAKE) -f Creational/FactoryMethod/CMakeFiles/factory_method.dir/build.make Creational/FactoryMethod/CMakeFiles/factory_method.dir/build
 .PHONY : factory_method/fast
 
 #=============================================================================
@@ -133,7 +133,7 @@ singleton: cmake_check_build_system
 
 # fast build rule for target.
 singleton/fast:
-	$(MAKE) -f Singleton/CMakeFiles/singleton.dir/build.make Singleton/CMakeFiles/singleton.dir/build
+	$(MAKE) -f Creational/Singleton/CMakeFiles/singleton.dir/build.make Creational/Singleton/CMakeFiles/singleton.dir/build
 .PHONY : singleton/fast
 
 #=============================================================================
@@ -146,8 +146,21 @@ builder: cmake_check_build_system
 
 # fast build rule for target.
 builder/fast:
-	$(MAKE) -f Builder/CMakeFiles/builder.dir/build.make Builder/CMakeFiles/builder.dir/build
+	$(MAKE) -f Creational/Builder/CMakeFiles/builder.dir/build.make Creational/Builder/CMakeFiles/builder.dir/build
 .PHONY : builder/fast
+
+#=============================================================================
+# Target rules for targets named observer
+
+# Build rule for target.
+observer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 observer
+.PHONY : observer
+
+# fast build rule for target.
+observer/fast:
+	$(MAKE) -f Behavioral/Observer/CMakeFiles/observer.dir/build.make Behavioral/Observer/CMakeFiles/observer.dir/build
+.PHONY : observer/fast
 
 # Help Target
 help:
@@ -160,6 +173,7 @@ help:
 	@echo "... factory_method"
 	@echo "... singleton"
 	@echo "... builder"
+	@echo "... observer"
 .PHONY : help
 
 

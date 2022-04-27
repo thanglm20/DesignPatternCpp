@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/method_factory.dir/main.cpp.o  -o method_factory 

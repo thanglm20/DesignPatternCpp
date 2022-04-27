@@ -39,9 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/FactoryMethod/cmake_install.cmake")
-  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Singleton/cmake_install.cmake")
-  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Builder/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/FactoryMethod/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/Singleton/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/Builder/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Observer/cmake_install.cmake")
 
 endif()
 
