@@ -13,9 +13,9 @@ private:
     /* data */
     
 public:
-    std::unique_ptr<Body> m_body;
-    std::unique_ptr<Wheel> m_wheel;
-    std::unique_ptr<Engine> m_engine;
+    std::unique_ptr<Body> m_body = nullptr;
+    std::unique_ptr<Wheel> m_wheel = nullptr;
+    std::unique_ptr<Engine> m_engine = nullptr;
     Car(/* args */);
     Car(Car&& car);
     ~Car();
@@ -34,15 +34,17 @@ Car::Car(Car&& car)
 }
 Car::~Car()
 {
-    std::cout << "Car destrcutor\n";
 }
 
 void Car::specs()
 {
     std::cout  << "=====================================" << std::endl;
     std::cout << "Car specifications info: " << std::endl;
+    if(m_body != nullptr)
     std::cout << "Body: " << m_body->getManufacturer() << std::endl;
+    if(m_wheel != nullptr)
     std::cout << "Wheel: " << m_wheel->getManufacturer() << std::endl;
+    if(m_engine != nullptr)
     std::cout << "Engine: " << m_engine->getManufacturer() << std::endl;
 
 }

@@ -9,7 +9,7 @@ private:
     std::string m_name;
 public:
     Wheel(std::string name) : m_name(name){}
-    ~Wheel(){std::cout << "Wheel destrcutor\n";}
+    ~Wheel(){}
     std::string getManufacturer()
     {
         return m_name;

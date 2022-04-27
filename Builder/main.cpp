@@ -9,18 +9,21 @@ allow it to be constructed in steps.
 
 #include <iostream>
 #include <vector>
-#include "Builder.hpp"
+#include "Client.hpp"
 
 int main()
 {
     std::cout << "Builder Pattern Design" << std::endl;
+    Client client;
+    for(int i = 0; i < 5; ++i)
+    {
+        Builder* builder = new Builder();
 
-    Builder builder;
-    builder.setBody(std::make_unique<Body>(Body("Toyota")))
-            .setEngine(std::make_unique<Engine>(Engine("Toyota")))
-            .setWheel(std::make_unique<Wheel>(Wheel("Toyota")));
-    
-    Car* car = std::move(builder.build());
-    car->specs();
+        builder->setBody(std::make_unique<Body>("Toyota"))
+            .setEngine(std::make_unique<Engine>(Engine("Audi")))
+            .setWheel(std::make_unique<Wheel>(Wheel("Mecedes")));
+        client.addBuilder(builder);
+    }
+    client.getCars();
     return 0;
 }

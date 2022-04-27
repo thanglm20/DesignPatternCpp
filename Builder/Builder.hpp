@@ -13,25 +13,26 @@ private:
     /* data */
     Car* m_car;
 public:
-    Builder(/* args */){}
+    Builder(/* args */)
+    {
+        m_car = new Car();
+    }
     ~Builder()
     {
-        std::cout << "Builder destrcutor\n";
         if(m_car) delete m_car;
     }
-    Builder& setWheel(std::unique_ptr<Wheel>&& wheel)
+    Builder& setWheel(std::unique_ptr<Wheel> wheel)
     { 
         m_car->m_wheel = std::move(wheel);
-        
         return *this;
     }
 
-    Builder& setEngine(std::unique_ptr<Engine>&& engine)
+    Builder& setEngine(std::unique_ptr<Engine> engine)
     { 
         m_car->m_engine = std::move(engine);
         return *this;
     }
-    Builder& setBody(std::unique_ptr<Body>&& body)
+    Builder& setBody(std::unique_ptr<Body> body)
     { 
         m_car->m_body = std::move(body);
         return *this;
