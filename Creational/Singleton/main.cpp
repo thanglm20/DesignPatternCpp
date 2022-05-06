@@ -1,9 +1,10 @@
 
 #include <iostream>
 #include <vector>
-#include <unistd.h>
 #include <thread>
 #include "Singleton.hpp"
+#include <thread>         // std::this_thread::sleep_for
+#include <chrono>         // std::chrono::seconds
 
 void call()
 {
@@ -13,7 +14,8 @@ void call()
     {
         singleton = Singleton::getInstance("Thread 0");
         singleton->show();
-        sleep(1);
+        std::this_thread::sleep_for (std::chrono::seconds(1));
+
     }
     
 }
@@ -25,7 +27,8 @@ void call1()
     {
         singleton = Singleton::getInstance("Thread 1");
         singleton->show();
-        sleep(1);
+        std::this_thread::sleep_for (std::chrono::seconds(1));
+
     }
     
 }
@@ -37,6 +40,8 @@ int main()
     std::thread thread2(call1);
 
     while(1)
-    {sleep(1);}
+    {    
+        std::this_thread::sleep_for (std::chrono::seconds(1));
+    }
     return 0;
 }
