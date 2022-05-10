@@ -53,10 +53,15 @@ CMAKE_BINARY_DIR = /media/thanglm/Thanglm/Proejcts/PatternDesign/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/PatternDesign.dir/all
 all: Creational/FactoryMethod/all
 all: Creational/Singleton/all
 all: Creational/Builder/all
 all: Behavioral/Observer/all
+all: Behavioral/Strategy/all
+all: Structural/Decorator/all
+all: Structural/Adapter/all
+all: Structural/Facade/all
 
 .PHONY : all
 
@@ -65,14 +70,23 @@ preinstall: Creational/FactoryMethod/preinstall
 preinstall: Creational/Singleton/preinstall
 preinstall: Creational/Builder/preinstall
 preinstall: Behavioral/Observer/preinstall
+preinstall: Behavioral/Strategy/preinstall
+preinstall: Structural/Decorator/preinstall
+preinstall: Structural/Adapter/preinstall
+preinstall: Structural/Facade/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/PatternDesign.dir/clean
 clean: Creational/FactoryMethod/clean
 clean: Creational/Singleton/clean
 clean: Creational/Builder/clean
 clean: Behavioral/Observer/clean
+clean: Behavioral/Strategy/clean
+clean: Structural/Decorator/clean
+clean: Structural/Adapter/clean
+clean: Structural/Facade/clean
 
 .PHONY : clean
 
@@ -93,6 +107,24 @@ Behavioral/Observer/preinstall:
 Behavioral/Observer/clean: Behavioral/Observer/CMakeFiles/observer.dir/clean
 
 .PHONY : Behavioral/Observer/clean
+
+#=============================================================================
+# Directory level rules for directory Behavioral/Strategy
+
+# Recursive "all" directory target.
+Behavioral/Strategy/all: Behavioral/Strategy/CMakeFiles/strategy.dir/all
+
+.PHONY : Behavioral/Strategy/all
+
+# Recursive "preinstall" directory target.
+Behavioral/Strategy/preinstall:
+
+.PHONY : Behavioral/Strategy/preinstall
+
+# Recursive "clean" directory target.
+Behavioral/Strategy/clean: Behavioral/Strategy/CMakeFiles/strategy.dir/clean
+
+.PHONY : Behavioral/Strategy/clean
 
 #=============================================================================
 # Directory level rules for directory Creational/Builder
@@ -149,13 +181,94 @@ Creational/Singleton/clean: Creational/Singleton/CMakeFiles/singleton.dir/clean
 .PHONY : Creational/Singleton/clean
 
 #=============================================================================
+# Directory level rules for directory Structural/Adapter
+
+# Recursive "all" directory target.
+Structural/Adapter/all: Structural/Adapter/CMakeFiles/adapter.dir/all
+
+.PHONY : Structural/Adapter/all
+
+# Recursive "preinstall" directory target.
+Structural/Adapter/preinstall:
+
+.PHONY : Structural/Adapter/preinstall
+
+# Recursive "clean" directory target.
+Structural/Adapter/clean: Structural/Adapter/CMakeFiles/adapter.dir/clean
+
+.PHONY : Structural/Adapter/clean
+
+#=============================================================================
+# Directory level rules for directory Structural/Decorator
+
+# Recursive "all" directory target.
+Structural/Decorator/all: Structural/Decorator/CMakeFiles/decorator.dir/all
+
+.PHONY : Structural/Decorator/all
+
+# Recursive "preinstall" directory target.
+Structural/Decorator/preinstall:
+
+.PHONY : Structural/Decorator/preinstall
+
+# Recursive "clean" directory target.
+Structural/Decorator/clean: Structural/Decorator/CMakeFiles/decorator.dir/clean
+
+.PHONY : Structural/Decorator/clean
+
+#=============================================================================
+# Directory level rules for directory Structural/Facade
+
+# Recursive "all" directory target.
+Structural/Facade/all: Structural/Facade/CMakeFiles/facade.dir/all
+
+.PHONY : Structural/Facade/all
+
+# Recursive "preinstall" directory target.
+Structural/Facade/preinstall:
+
+.PHONY : Structural/Facade/preinstall
+
+# Recursive "clean" directory target.
+Structural/Facade/clean: Structural/Facade/CMakeFiles/facade.dir/clean
+
+.PHONY : Structural/Facade/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PatternDesign.dir
+
+# All Build rule for target.
+CMakeFiles/PatternDesign.dir/all:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/depend
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=1,2 "Built target PatternDesign"
+.PHONY : CMakeFiles/PatternDesign.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PatternDesign.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PatternDesign.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : CMakeFiles/PatternDesign.dir/rule
+
+# Convenience name for target.
+PatternDesign: CMakeFiles/PatternDesign.dir/rule
+
+.PHONY : PatternDesign
+
+# clean rule for target.
+CMakeFiles/PatternDesign.dir/clean:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/clean
+.PHONY : CMakeFiles/PatternDesign.dir/clean
+
+#=============================================================================
 # Target rules for target Creational/FactoryMethod/CMakeFiles/factory_method.dir
 
 # All Build rule for target.
 Creational/FactoryMethod/CMakeFiles/factory_method.dir/all:
 	$(MAKE) -f Creational/FactoryMethod/CMakeFiles/factory_method.dir/build.make Creational/FactoryMethod/CMakeFiles/factory_method.dir/depend
 	$(MAKE) -f Creational/FactoryMethod/CMakeFiles/factory_method.dir/build.make Creational/FactoryMethod/CMakeFiles/factory_method.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=3,4 "Built target factory_method"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=11,12 "Built target factory_method"
 .PHONY : Creational/FactoryMethod/CMakeFiles/factory_method.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +295,7 @@ Creational/FactoryMethod/CMakeFiles/factory_method.dir/clean:
 Creational/Singleton/CMakeFiles/singleton.dir/all:
 	$(MAKE) -f Creational/Singleton/CMakeFiles/singleton.dir/build.make Creational/Singleton/CMakeFiles/singleton.dir/depend
 	$(MAKE) -f Creational/Singleton/CMakeFiles/singleton.dir/build.make Creational/Singleton/CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=7,8 "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=15,16 "Built target singleton"
 .PHONY : Creational/Singleton/CMakeFiles/singleton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +322,7 @@ Creational/Singleton/CMakeFiles/singleton.dir/clean:
 Creational/Builder/CMakeFiles/builder.dir/all:
 	$(MAKE) -f Creational/Builder/CMakeFiles/builder.dir/build.make Creational/Builder/CMakeFiles/builder.dir/depend
 	$(MAKE) -f Creational/Builder/CMakeFiles/builder.dir/build.make Creational/Builder/CMakeFiles/builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=1,2 "Built target builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=5,6 "Built target builder"
 .PHONY : Creational/Builder/CMakeFiles/builder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -236,7 +349,7 @@ Creational/Builder/CMakeFiles/builder.dir/clean:
 Behavioral/Observer/CMakeFiles/observer.dir/all:
 	$(MAKE) -f Behavioral/Observer/CMakeFiles/observer.dir/build.make Behavioral/Observer/CMakeFiles/observer.dir/depend
 	$(MAKE) -f Behavioral/Observer/CMakeFiles/observer.dir/build.make Behavioral/Observer/CMakeFiles/observer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=5,6 "Built target observer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=13,14 "Built target observer"
 .PHONY : Behavioral/Observer/CMakeFiles/observer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,6 +368,114 @@ observer: Behavioral/Observer/CMakeFiles/observer.dir/rule
 Behavioral/Observer/CMakeFiles/observer.dir/clean:
 	$(MAKE) -f Behavioral/Observer/CMakeFiles/observer.dir/build.make Behavioral/Observer/CMakeFiles/observer.dir/clean
 .PHONY : Behavioral/Observer/CMakeFiles/observer.dir/clean
+
+#=============================================================================
+# Target rules for target Behavioral/Strategy/CMakeFiles/strategy.dir
+
+# All Build rule for target.
+Behavioral/Strategy/CMakeFiles/strategy.dir/all:
+	$(MAKE) -f Behavioral/Strategy/CMakeFiles/strategy.dir/build.make Behavioral/Strategy/CMakeFiles/strategy.dir/depend
+	$(MAKE) -f Behavioral/Strategy/CMakeFiles/strategy.dir/build.make Behavioral/Strategy/CMakeFiles/strategy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=17,18 "Built target strategy"
+.PHONY : Behavioral/Strategy/CMakeFiles/strategy.dir/all
+
+# Build rule for subdir invocation for target.
+Behavioral/Strategy/CMakeFiles/strategy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Behavioral/Strategy/CMakeFiles/strategy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : Behavioral/Strategy/CMakeFiles/strategy.dir/rule
+
+# Convenience name for target.
+strategy: Behavioral/Strategy/CMakeFiles/strategy.dir/rule
+
+.PHONY : strategy
+
+# clean rule for target.
+Behavioral/Strategy/CMakeFiles/strategy.dir/clean:
+	$(MAKE) -f Behavioral/Strategy/CMakeFiles/strategy.dir/build.make Behavioral/Strategy/CMakeFiles/strategy.dir/clean
+.PHONY : Behavioral/Strategy/CMakeFiles/strategy.dir/clean
+
+#=============================================================================
+# Target rules for target Structural/Decorator/CMakeFiles/decorator.dir
+
+# All Build rule for target.
+Structural/Decorator/CMakeFiles/decorator.dir/all:
+	$(MAKE) -f Structural/Decorator/CMakeFiles/decorator.dir/build.make Structural/Decorator/CMakeFiles/decorator.dir/depend
+	$(MAKE) -f Structural/Decorator/CMakeFiles/decorator.dir/build.make Structural/Decorator/CMakeFiles/decorator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=7,8 "Built target decorator"
+.PHONY : Structural/Decorator/CMakeFiles/decorator.dir/all
+
+# Build rule for subdir invocation for target.
+Structural/Decorator/CMakeFiles/decorator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Structural/Decorator/CMakeFiles/decorator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : Structural/Decorator/CMakeFiles/decorator.dir/rule
+
+# Convenience name for target.
+decorator: Structural/Decorator/CMakeFiles/decorator.dir/rule
+
+.PHONY : decorator
+
+# clean rule for target.
+Structural/Decorator/CMakeFiles/decorator.dir/clean:
+	$(MAKE) -f Structural/Decorator/CMakeFiles/decorator.dir/build.make Structural/Decorator/CMakeFiles/decorator.dir/clean
+.PHONY : Structural/Decorator/CMakeFiles/decorator.dir/clean
+
+#=============================================================================
+# Target rules for target Structural/Adapter/CMakeFiles/adapter.dir
+
+# All Build rule for target.
+Structural/Adapter/CMakeFiles/adapter.dir/all:
+	$(MAKE) -f Structural/Adapter/CMakeFiles/adapter.dir/build.make Structural/Adapter/CMakeFiles/adapter.dir/depend
+	$(MAKE) -f Structural/Adapter/CMakeFiles/adapter.dir/build.make Structural/Adapter/CMakeFiles/adapter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=3,4 "Built target adapter"
+.PHONY : Structural/Adapter/CMakeFiles/adapter.dir/all
+
+# Build rule for subdir invocation for target.
+Structural/Adapter/CMakeFiles/adapter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Structural/Adapter/CMakeFiles/adapter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : Structural/Adapter/CMakeFiles/adapter.dir/rule
+
+# Convenience name for target.
+adapter: Structural/Adapter/CMakeFiles/adapter.dir/rule
+
+.PHONY : adapter
+
+# clean rule for target.
+Structural/Adapter/CMakeFiles/adapter.dir/clean:
+	$(MAKE) -f Structural/Adapter/CMakeFiles/adapter.dir/build.make Structural/Adapter/CMakeFiles/adapter.dir/clean
+.PHONY : Structural/Adapter/CMakeFiles/adapter.dir/clean
+
+#=============================================================================
+# Target rules for target Structural/Facade/CMakeFiles/facade.dir
+
+# All Build rule for target.
+Structural/Facade/CMakeFiles/facade.dir/all:
+	$(MAKE) -f Structural/Facade/CMakeFiles/facade.dir/build.make Structural/Facade/CMakeFiles/facade.dir/depend
+	$(MAKE) -f Structural/Facade/CMakeFiles/facade.dir/build.make Structural/Facade/CMakeFiles/facade.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles --progress-num=9,10 "Built target facade"
+.PHONY : Structural/Facade/CMakeFiles/facade.dir/all
+
+# Build rule for subdir invocation for target.
+Structural/Facade/CMakeFiles/facade.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Structural/Facade/CMakeFiles/facade.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles 0
+.PHONY : Structural/Facade/CMakeFiles/facade.dir/rule
+
+# Convenience name for target.
+facade: Structural/Facade/CMakeFiles/facade.dir/rule
+
+.PHONY : facade
+
+# clean rule for target.
+Structural/Facade/CMakeFiles/facade.dir/clean:
+	$(MAKE) -f Structural/Facade/CMakeFiles/facade.dir/build.make Structural/Facade/CMakeFiles/facade.dir/clean
+.PHONY : Structural/Facade/CMakeFiles/facade.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

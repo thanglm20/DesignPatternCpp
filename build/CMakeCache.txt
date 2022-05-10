@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PatternDesigns
+CMAKE_PROJECT_NAME:STATIC=PatternDesign
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -210,16 +210,34 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-PatternDesigns_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build
+PatternDesign_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build
 
 //Value Computed by CMake
-PatternDesigns_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign
+PatternDesign_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign
+
+//Value Computed by CMake
+adapter_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Adapter
+
+//Value Computed by CMake
+adapter_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Structural/Adapter
 
 //Value Computed by CMake
 builder_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/Builder
 
 //Value Computed by CMake
 builder_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Creational/Builder
+
+//Value Computed by CMake
+decorator_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Decorator
+
+//Value Computed by CMake
+decorator_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Structural/Decorator
+
+//Value Computed by CMake
+facade_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Facade
+
+//Value Computed by CMake
+facade_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Structural/Facade
 
 //Value Computed by CMake
 factory_method_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/FactoryMethod
@@ -238,6 +256,12 @@ singleton_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/
 
 //Value Computed by CMake
 singleton_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Creational/Singleton
+
+//Value Computed by CMake
+strategy_BINARY_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Strategy
+
+//Value Computed by CMake
+strategy_SOURCE_DIR:STATIC=/media/thanglm/Thanglm/Proejcts/PatternDesign/Behavioral/Strategy
 
 
 ########################
@@ -344,7 +368,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -5,6 +5,7 @@
 #include <vector>
 #include "Observer.hpp"
 #include <algorithm>
+#include <iterator> // for iterators
 
 
 class Subject
@@ -19,7 +20,10 @@ public:
     }
     ~Subject()
     {
-
+        // std::vector<Observer*>::iterator it;
+        for(auto it = m_observers.begin(); it != m_observers.end(); ++it)
+            if(*it != nullptr)
+                m_observers.erase(it);
     }
     void subscribe(Observer* observer)
     {
@@ -44,6 +48,7 @@ public:
         return m_observers.size();
     }
 };
+
 
 class ComputerShop : public Subject
 {

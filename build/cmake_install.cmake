@@ -43,6 +43,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/Singleton/cmake_install.cmake")
   include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/Builder/cmake_install.cmake")
   include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Observer/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Strategy/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Decorator/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Adapter/cmake_install.cmake")
+  include("/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Facade/cmake_install.cmake")
 
 endif()
 

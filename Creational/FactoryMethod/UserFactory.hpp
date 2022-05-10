@@ -9,6 +9,7 @@
 #include "Car.hpp"
 #include "Vehicle.hpp"
 
+
 Vehicle* Vehicle::create(VehicleType type, int id, std::string name, std::string origin)
 {
     Vehicle* vehicle = nullptr;
@@ -25,6 +26,10 @@ Vehicle* Vehicle::create(VehicleType type, int id, std::string name, std::string
 
     return vehicle;
 }
+
+
+
+
 
 class UserFactory
 {

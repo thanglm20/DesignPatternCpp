@@ -1,5 +1,6 @@
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/CMakeFiles/PatternDesign.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/FactoryMethod/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/FactoryMethod/CMakeFiles/edit_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Creational/FactoryMethod/CMakeFiles/factory_method.dir
@@ -12,3 +13,15 @@
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Observer/CMakeFiles/rebuild_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Observer/CMakeFiles/edit_cache.dir
 /media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Observer/CMakeFiles/observer.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Strategy/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Strategy/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Behavioral/Strategy/CMakeFiles/strategy.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/decorator.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Adapter/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Adapter/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Adapter/CMakeFiles/adapter.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Facade/CMakeFiles/rebuild_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Facade/CMakeFiles/edit_cache.dir
+/media/thanglm/Thanglm/Proejcts/PatternDesign/build/Structural/Facade/CMakeFiles/facade.dir

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PatternDesign
+
+# Build rule for target.
+PatternDesign: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PatternDesign
+.PHONY : PatternDesign
+
+# fast build rule for target.
+PatternDesign/fast:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/build
+.PHONY : PatternDesign/fast
+
+#=============================================================================
 # Target rules for targets named factory_method
 
 # Build rule for target.
@@ -162,6 +175,85 @@ observer/fast:
 	$(MAKE) -f Behavioral/Observer/CMakeFiles/observer.dir/build.make Behavioral/Observer/CMakeFiles/observer.dir/build
 .PHONY : observer/fast
 
+#=============================================================================
+# Target rules for targets named strategy
+
+# Build rule for target.
+strategy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strategy
+.PHONY : strategy
+
+# fast build rule for target.
+strategy/fast:
+	$(MAKE) -f Behavioral/Strategy/CMakeFiles/strategy.dir/build.make Behavioral/Strategy/CMakeFiles/strategy.dir/build
+.PHONY : strategy/fast
+
+#=============================================================================
+# Target rules for targets named decorator
+
+# Build rule for target.
+decorator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 decorator
+.PHONY : decorator
+
+# fast build rule for target.
+decorator/fast:
+	$(MAKE) -f Structural/Decorator/CMakeFiles/decorator.dir/build.make Structural/Decorator/CMakeFiles/decorator.dir/build
+.PHONY : decorator/fast
+
+#=============================================================================
+# Target rules for targets named adapter
+
+# Build rule for target.
+adapter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adapter
+.PHONY : adapter
+
+# fast build rule for target.
+adapter/fast:
+	$(MAKE) -f Structural/Adapter/CMakeFiles/adapter.dir/build.make Structural/Adapter/CMakeFiles/adapter.dir/build
+.PHONY : adapter/fast
+
+#=============================================================================
+# Target rules for targets named facade
+
+# Build rule for target.
+facade: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 facade
+.PHONY : facade
+
+# fast build rule for target.
+facade/fast:
+	$(MAKE) -f Structural/Facade/CMakeFiles/facade.dir/build.make Structural/Facade/CMakeFiles/facade.dir/build
+.PHONY : facade/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/PatternDesign.dir/build.make CMakeFiles/PatternDesign.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -170,10 +262,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... PatternDesign"
 	@echo "... factory_method"
 	@echo "... singleton"
 	@echo "... builder"
 	@echo "... observer"
+	@echo "... strategy"
+	@echo "... decorator"
+	@echo "... adapter"
+	@echo "... facade"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
