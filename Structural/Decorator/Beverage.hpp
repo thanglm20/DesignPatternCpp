@@ -10,7 +10,10 @@ private:
 public:
     Beverage(){}
     ~Beverage(){}
-    virtual std::string getDescription() = 0;
+    std::string getDescription()
+    {
+        std::cout << "========Beverage==========" << std::endl;
+    }
     virtual float cost() = 0;
 };
 
@@ -25,6 +28,28 @@ public:
 
     } 
     float cost()
+    {
+        std::cout << "Juice fruit price: 30" << std::endl;
+        return 30.0;
+    }
 };
+
+class MilkTea : public Beverage
+{
+    
+public:
+    MilkTea(){}
+    ~MilkTea(){}
+    std::string getDescription()
+    {
+
+    } 
+    float cost()
+    {
+        std::cout << "Milk tea price: 50" << std::endl;
+        return 50.0;
+    }
+};
+
 
 #endif
