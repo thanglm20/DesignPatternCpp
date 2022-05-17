@@ -20,9 +20,8 @@ int main()
     // decorating
     DecorateIce* ice = new DecorateIce(beverage);
     DecorateSugar* sugar = new DecorateSugar(ice);
-
-
-    DecorateSize* size = new DecorateSize(sugar, 0);
+    DecorateSize* size = new DecorateSize(sugar, 1);
+    
     std::cout << "Cost: " << size->cost() << std::endl;
 
     delete beverage;
