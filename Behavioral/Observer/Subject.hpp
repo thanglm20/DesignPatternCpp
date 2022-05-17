@@ -34,7 +34,7 @@ public:
         auto ob = std::find_if(m_observers.begin(), m_observers.end(), [&](Observer* obj){ return (observer == obj);});
         if(ob != m_observers.end())
         {
-            int i = std::distance(m_observers.begin(), ob);
+            size_t i = std::distance(m_observers.begin(), ob);
             m_observers.erase(m_observers.begin() + i);
         }
     }
@@ -43,7 +43,7 @@ public:
         for(int i = 0; i < m_observers.size(); ++i)
             m_observers[i]->update();
     }
-    int getTotalSubscriber()
+    size_t getTotalSubscriber()
     {
         return m_observers.size();
     }

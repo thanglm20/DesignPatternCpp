@@ -18,6 +18,7 @@ class BeverageDecorator : public Beverage
     {
         return m_beverage->cost();
     }
+    
 };
 
 class DecorateIce : public BeverageDecorator
