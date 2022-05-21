@@ -27,7 +27,8 @@ public:
     }
     void remove(Observer* observer)
     {
-        auto ob = std::find_if(m_observers.begin(), m_observers.end(), [&](Observer* obj){ return (observer == obj);});
+        auto ob = std::find_if(m_observers.begin(), m_observers.end(), 
+                    [&](Observer* obj){ return (observer == obj);});
         if(ob != m_observers.end())
         {
             int i = std::distance(m_observers.begin(), ob);
@@ -66,7 +67,6 @@ public:
         std::cout << "serial: " << m_serial << std::endl;
         std::cout << "discout: " << m_discount << "%" << std::endl;
         std::cout << "available products: " << m_numberOfProduct << std::endl;
-
     }
 
 };
