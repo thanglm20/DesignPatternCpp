@@ -1,8 +1,8 @@
-# Install script for directory: D:/Projects/PatternDesigns
+# Install script for directory: D:/ThangLM/Proejcts/PatternDesign
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/PatternDesigns")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/PatternDesign")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,10 +34,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Projects/PatternDesigns/build/Creational/FactoryMethod/cmake_install.cmake")
-  include("D:/Projects/PatternDesigns/build/Creational/Singleton/cmake_install.cmake")
-  include("D:/Projects/PatternDesigns/build/Creational/Builder/cmake_install.cmake")
-  include("D:/Projects/PatternDesigns/build/Behavioral/Observer/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Creational/FactoryMethod/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Creational/Singleton/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Creational/Builder/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Observer/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Strategy/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Structural/Adapter/cmake_install.cmake")
+  include("D:/ThangLM/Proejcts/PatternDesign/build/Structural/Facade/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Projects/PatternDesigns/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/ThangLM/Proejcts/PatternDesign/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
