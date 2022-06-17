@@ -31,7 +31,8 @@ public:
     }
     void remove(Observer* observer)
     {
-        auto ob = std::find_if(m_observers.begin(), m_observers.end(), [&](Observer* obj){ return (observer == obj);});
+        auto ob = std::find_if(m_observers.begin(), m_observers.end(), 
+                    [&](Observer* obj){ return (observer == obj);});
         if(ob != m_observers.end())
         {
             size_t i = std::distance(m_observers.begin(), ob);

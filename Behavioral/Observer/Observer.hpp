@@ -12,7 +12,6 @@ public:
     }
     ~Observer()
     {
-
     }
     virtual void update() = 0;
 };
