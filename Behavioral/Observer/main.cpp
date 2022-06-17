@@ -25,10 +25,7 @@ int main()
     sub->setDiscount("Dell", 20.0, 100);
     sub->nofify();
     
-<<<<<<< HEAD
-=======
 
->>>>>>> f9e5231e68f41f934f17efc268daf284ca77773c
     delete ob1;
     delete ob2;
     delete ob3;

@@ -57,8 +57,9 @@ private:
     {
         std::cout << "Proxy is checking virus ... \n";
     }
+
 public:
-    Proxy(std::shared_ptr<RealSubject>& realSubject) : m_subject(realSubject)
+    Proxy(std::shared_ptr<RealSubject> &realSubject) : m_subject(realSubject)
     {
     }
     void request() override
@@ -75,7 +76,7 @@ int main()
 {
     std::cout << "Proxy Pattern Design" << std::endl;
     auto realSubject = std::make_shared<RealSubject>();
-    Proxy* proxy = new Proxy(realSubject);
+    Proxy *proxy = new Proxy(realSubject);
     proxy->request();
     return 0;
 }
