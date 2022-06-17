@@ -71,7 +71,6 @@ public:
         std::cout << "serial: " << m_serial << std::endl;
         std::cout << "discout: " << m_discount << "%" << std::endl;
         std::cout << "available products: " << m_numberOfProduct << std::endl;
-
     }
 
 };

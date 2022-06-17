@@ -14,5 +14,6 @@ add_subdirectory(Behavioral/Strategy)
 add_subdirectory(Structural/Decorator)
 add_subdirectory(Structural/Adapter)
 add_subdirectory(Structural/Facade)
+add_subdirectory(Structural/Proxy)
 
 add_executable(${PROJECT_NAME} main.cpp)

@@ -22,7 +22,7 @@ algorithm (pricing 'strategy') at run-time.
 algorithms can be (inter)changed at run-time.
 */
 
-
+#include <functional>
 #include "Order.hpp"
 #include "DiscountStrategy.hpp"
 int main()

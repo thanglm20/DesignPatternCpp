@@ -8,7 +8,7 @@ private:
     std::string m_name;
     float m_price; 
 public:
-    Product(std::string& name, float price)
+    Product(const std::string& name, float price)
     :
     m_name(name), m_price(price)
     {

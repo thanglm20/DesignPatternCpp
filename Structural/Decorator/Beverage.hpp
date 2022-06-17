@@ -13,6 +13,7 @@ public:
     std::string getDescription()
     {
         std::cout << "========Beverage==========" << std::endl;
+        return "Beverage";
     }
     virtual float cost() = 0;
 };
@@ -25,7 +26,7 @@ public:
     ~JuiceFruit(){}
     std::string getDescription()
     {
-
+        return "JuiceFruit";
     } 
     float cost()
     {
@@ -42,6 +43,7 @@ public:
     ~MilkTea(){}
     std::string getDescription()
     {
+        return "MilkTea";
 
     } 
     float cost()
