@@ -10,6 +10,7 @@ add_subdirectory(Creational/Builder)
 
 add_subdirectory(Behavioral/Observer)
 add_subdirectory(Behavioral/Strategy)
+add_subdirectory(Behavioral/TemplateMethod)
 
 add_subdirectory(Structural/Decorator)
 add_subdirectory(Structural/Adapter)

@@ -28,6 +28,7 @@ algorithms can be (inter)changed at run-time.
 int main()
 {
     std::cout << "Strategy Pattern Design" << std::endl;
+
     Product phone(std::string("IPhone"), 30);
     Product laptop(std::string("Dell"), 25);
     Product videoGame(std::string("PS4"), 50);

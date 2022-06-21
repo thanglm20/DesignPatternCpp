@@ -293,6 +293,12 @@ strategy_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/St
 //Value Computed by CMake
 strategy_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy
 
+//Value Computed by CMake
+template_method_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/TemplateMethod
+
+//Value Computed by CMake
+template_method_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/TemplateMethod
+
 
 ########################
 # INTERNAL cache entries
@@ -400,7 +406,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -27,6 +27,7 @@ int main()
     delete beverage;
     delete ice;
     delete sugar;
+    delete size;
 
     return 0;
 }
