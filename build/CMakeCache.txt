@@ -270,6 +270,12 @@ factory_method_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Creatio
 factory_method_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Creational/FactoryMethod
 
 //Value Computed by CMake
+iterator_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator
+
+//Value Computed by CMake
+iterator_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/Iterator
+
+//Value Computed by CMake
 observer_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Observer
 
 //Value Computed by CMake
@@ -406,7 +412,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
