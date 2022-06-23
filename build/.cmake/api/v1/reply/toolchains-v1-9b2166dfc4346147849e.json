@@ -1,0 +1,129 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include",
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed",
+						"D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0",
+						"D:/ThangLM/Setups/MinGW/lib/gcc",
+						"D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/lib",
+						"D:/ThangLM/Setups/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/ThangLM/Setups/MinGW/bin/gcc.exe",
+				"version" : "9.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/ThangLM/Setups/MinGW/include/c++/9.2.0",
+						"D:/ThangLM/Setups/MinGW/include/c++/9.2.0/x86_64-w64-mingw32",
+						"D:/ThangLM/Setups/MinGW/include/c++/9.2.0/backward",
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include",
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed",
+						"D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/ThangLM/Setups/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0",
+						"D:/ThangLM/Setups/MinGW/lib/gcc",
+						"D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/lib",
+						"D:/ThangLM/Setups/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/ThangLM/Setups/MinGW/bin/g++.exe",
+				"version" : "9.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/ThangLM/Setups/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
