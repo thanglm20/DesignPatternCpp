@@ -22,6 +22,9 @@ D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/TemplateMethod/CMakeFiles/edi
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator/CMakeFiles/iterator.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator/CMakeFiles/rebuild_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/command.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/rebuild_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/decorator.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/rebuild_cache.dir

@@ -29,85 +29,43 @@ T add(T f, Args... args)
     return f + add(args...);
 }
 
-class Item
+
+
+
+// template <typename T, typename T2>
+// typename std::common_type<T, T2>::type sum(T t, T2 t2) {
+//     return t + t2;
+// }
+template <typename T, typename T2>
+auto sum(T t, T2 t2) {
+    return t + t2;
+}
+
+struct B
 {
-    public:
-    Item (int a)
-    {
-        cout << "Constructor Item\n";
-    }
-    Item (const Item& i)
-    {
-        cout << "Copy Constructor Item\n";
-    }
-    Item (const Item&& i)
-    {
-        cout << "Move Constructor Item\n";
-    }
-    Item& operator=(const Item& i)
-    {
-        cout << "Copy Assignment Item\n";
-        return *this;
-    }
-    Item& operator=(const Item&& i)
-    {
-        cout << "Move Assignment Item\n";
-        return *this;
-    }
+    float a;
+    B(){}
 };
 
-class IItem : public Item
-{
-    public:
-    IItem (int a)  : Item(a)
-    {
-        cout << "Constructor IItem\n";
-    }
-    IItem (const Item& i) : Item(i)
-    {
-        cout << "Copy Constructor IItem\n";
-    }
-    IItem (const Item&& i)  : Item(i)
-    {
-        cout << "Move Constructor IItem\n";
-    }
-};
-class Product1
-{
-private:
-    Item m_name;
-    float m_price; 
-public:
-    Product1(const Item& name, float price)
-    :
-    m_name(name)
-    {
-        std::cout << "Product " << &name << std::endl;
-        std::cout << "Product member" << &m_name << std::endl;
-    }
-    ~Product1()
-    {
-    }
-    float getPrice()
-    {
-        return m_price;
-    }
-};
+int main() {
 
-int main()
-{
+    std::cout << '\n';
+    std::cout << typeid(6).name() << '\n';   
+    std::cout << typeid(sum(5.5, 5.5)).name() << '\n';     // double
+    std::cout << typeid(sum(5.5, true)).name() << '\n';    // double
+    std::cout << typeid(sum(true, 5.5)).name() << '\n';    // double
+    std::cout << typeid(sum(true, false)).name() << '\n';  // bool
 
-    print("[INFO] ",
-          "Variadic template function in C++ ", "\n\tby ThangLM ", 1997, "\n");
-    std::cout << "sum: " << add(1, 2, 3) << std::endl;
+    std::cout << '\n';
 
+    std::vector<B> vec;
+    B b1;
+    B b2;
+    vec.push_back(b1);
+    vec.push_back(b2);
 
-    Item i1(1);
-    Item& i2 = i1;
-    std::cout << "Item " << &i1 << std::endl;
-    std::cout << "Item " << &i2 << std::endl;
+    std::cout << &vec.at(0)<< std::endl;
+    std::cout << &vec.at(1)<< std::endl;
+    std::cout << &vec.at(6)<< std::endl;
 
-    Product1(i1, 3);
-
-    return 0;
 }
