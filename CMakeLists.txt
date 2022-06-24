@@ -20,4 +20,7 @@ add_subdirectory(Structural/Adapter)
 add_subdirectory(Structural/Facade)
 add_subdirectory(Structural/Proxy)
 
+
+add_subdirectory(MultiThread)
+
 add_executable(${PROJECT_NAME} main.cpp)

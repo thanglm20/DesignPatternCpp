@@ -1,6 +1,8 @@
 
 
 /*
+Encapsulate a request as an object, thereby letting you parameterizeclients with
+different requests, queue or log requests, and supportundoable operations.
  */
 
 #include <iostream>
@@ -97,6 +99,10 @@ public:
         m_command->execute();
     }
 };
+void print(int &a)
+{
+    std::cout << &a << std::endl;
+}
 int main()
 {
     std::cout << "Command Pattern Design" << std::endl;
@@ -113,5 +119,7 @@ int main()
     btn->setCommand(cmd2);
     btn->pressButton();
 
+    int a= 4;
+    print(a);
     return 0;
 }
