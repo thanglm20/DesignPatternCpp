@@ -246,6 +246,12 @@ adapter_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Structural/Ada
 adapter_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Structural/Adapter
 
 //Value Computed by CMake
+bridge_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Structural/Bridge
+
+//Value Computed by CMake
+bridge_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Structural/Bridge
+
+//Value Computed by CMake
 builder_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Creational/Builder
 
 //Value Computed by CMake
@@ -256,6 +262,12 @@ command_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Com
 
 //Value Computed by CMake
 command_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/Command
+
+//Value Computed by CMake
+composite_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Structural/Composite
+
+//Value Computed by CMake
+composite_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Structural/Composite
 
 //Value Computed by CMake
 decorator_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator
@@ -274,6 +286,12 @@ factory_method_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Creatio
 
 //Value Computed by CMake
 factory_method_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Creational/FactoryMethod
+
+//Value Computed by CMake
+interpreter_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Interpreter
+
+//Value Computed by CMake
+interpreter_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/Interpreter
 
 //Value Computed by CMake
 iterator_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator
@@ -316,6 +334,12 @@ template_method_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavi
 
 //Value Computed by CMake
 template_method_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/TemplateMethod
+
+//Value Computed by CMake
+visitor_BINARY_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Visitor
+
+//Value Computed by CMake
+visitor_SOURCE_DIR:STATIC=D:/ThangLM/Proejcts/PatternDesign/Behavioral/Visitor
 
 
 ########################
@@ -424,7 +448,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

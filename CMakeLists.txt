@@ -13,13 +13,15 @@ add_subdirectory(Behavioral/Strategy)
 add_subdirectory(Behavioral/TemplateMethod)
 add_subdirectory(Behavioral/Iterator)
 add_subdirectory(Behavioral/Command)
-
+add_subdirectory(Behavioral/Interpreter)
+add_subdirectory(Behavioral/Visitor)
 
 add_subdirectory(Structural/Decorator)
 add_subdirectory(Structural/Adapter)
 add_subdirectory(Structural/Facade)
 add_subdirectory(Structural/Proxy)
-
+add_subdirectory(Structural/Bridge)
+add_subdirectory(Structural/Composite)
 
 add_subdirectory(MultiThread)
 

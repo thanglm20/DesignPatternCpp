@@ -125,4 +125,26 @@ Structural/Adapter/CMakeFiles/adapter.dir/main.cpp.obj: \
  d:\thanglm\setups\mingw\include\c++\9.2.0\bits\basic_ios.tcc \
  d:\thanglm\setups\mingw\include\c++\9.2.0\bits\ostream.tcc \
  d:\thanglm\setups\mingw\include\c++\9.2.0\istream \
- d:\thanglm\setups\mingw\include\c++\9.2.0\bits\istream.tcc
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\istream.tcc \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\memory \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\stl_construct.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\stl_uninitialized.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\stl_tempbuf.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\stl_raw_storage_iter.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\ext\concurrence.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\uses_allocator.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\unique_ptr.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\utility \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\stl_relops.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\tuple \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\array \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\invoke.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\shared_ptr.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\shared_ptr_base.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\allocated_ptr.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\refwrap.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\ext\aligned_buffer.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\shared_ptr_atomic.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\atomic_base.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\bits\atomic_lockfree_defines.h \
+ d:\thanglm\setups\mingw\include\c++\9.2.0\backward\auto_ptr.h

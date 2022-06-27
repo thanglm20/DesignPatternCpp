@@ -233,6 +233,32 @@ command/fast:
 .PHONY : command/fast
 
 #=============================================================================
+# Target rules for targets named interpreter
+
+# Build rule for target.
+interpreter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 interpreter
+.PHONY : interpreter
+
+# fast build rule for target.
+interpreter/fast:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Interpreter\CMakeFiles\interpreter.dir\build.make Behavioral/Interpreter/CMakeFiles/interpreter.dir/build
+.PHONY : interpreter/fast
+
+#=============================================================================
+# Target rules for targets named visitor
+
+# Build rule for target.
+visitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 visitor
+.PHONY : visitor
+
+# fast build rule for target.
+visitor/fast:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Visitor\CMakeFiles\visitor.dir\build.make Behavioral/Visitor/CMakeFiles/visitor.dir/build
+.PHONY : visitor/fast
+
+#=============================================================================
 # Target rules for targets named decorator
 
 # Build rule for target.
@@ -285,6 +311,32 @@ proxy/fast:
 .PHONY : proxy/fast
 
 #=============================================================================
+# Target rules for targets named bridge
+
+# Build rule for target.
+bridge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bridge
+.PHONY : bridge
+
+# fast build rule for target.
+bridge/fast:
+	$(MAKE) $(MAKESILENT) -f Structural\Bridge\CMakeFiles\bridge.dir\build.make Structural/Bridge/CMakeFiles/bridge.dir/build
+.PHONY : bridge/fast
+
+#=============================================================================
+# Target rules for targets named composite
+
+# Build rule for target.
+composite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 composite
+.PHONY : composite
+
+# fast build rule for target.
+composite/fast:
+	$(MAKE) $(MAKESILENT) -f Structural\Composite\CMakeFiles\composite.dir\build.make Structural/Composite/CMakeFiles/composite.dir/build
+.PHONY : composite/fast
+
+#=============================================================================
 # Target rules for targets named multi_thread
 
 # Build rule for target.
@@ -331,11 +383,14 @@ help:
 	@echo ... rebuild_cache
 	@echo ... PatternDesign
 	@echo ... adapter
+	@echo ... bridge
 	@echo ... builder
 	@echo ... command
+	@echo ... composite
 	@echo ... decorator
 	@echo ... facade
 	@echo ... factory_method
+	@echo ... interpreter
 	@echo ... iterator
 	@echo ... multi_thread
 	@echo ... observer
@@ -343,6 +398,7 @@ help:
 	@echo ... singleton
 	@echo ... strategy
 	@echo ... template_method
+	@echo ... visitor
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

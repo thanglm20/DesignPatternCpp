@@ -1,15 +1,35 @@
-
-
-/*
-
-*/
-
 #include <iostream>
 
+class Scanner {
+ public:
+  void Scan() { std::cout << "generate token\n"; }
+};
 
-int main()
-{
-    std::cout << "Facade Pattern Design" << std::endl;
+class Parser {
+ public:
+  void Parse() { std::cout << "build syntax tree\n"; }
+};
 
-    return 0;
+class CodeGenerator {
+ public:
+  void GenerateCode() { std::cout << "generate machine code\n"; }
+};
+
+class Compiler {
+ public:
+  void Run() {
+    Scanner s;
+    s.Scan();
+
+    Parser p;
+    p.Parse();
+
+    CodeGenerator c;
+    c.GenerateCode();
+  }
+};
+
+int main() {
+  Compiler compiler;
+  compiler.Run();
 }

@@ -25,6 +25,12 @@ D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Iterator/CMakeFiles/rebuild_c
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/command.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Command/CMakeFiles/rebuild_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Interpreter/CMakeFiles/rebuild_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Interpreter/CMakeFiles/interpreter.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Interpreter/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Visitor/CMakeFiles/visitor.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Visitor/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Behavioral/Visitor/CMakeFiles/rebuild_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/decorator.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Decorator/CMakeFiles/rebuild_cache.dir
@@ -37,6 +43,12 @@ D:/ThangLM/Proejcts/PatternDesign/build/Structural/Facade/CMakeFiles/rebuild_cac
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Proxy/CMakeFiles/proxy.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Proxy/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/Structural/Proxy/CMakeFiles/rebuild_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Bridge/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Bridge/CMakeFiles/bridge.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Bridge/CMakeFiles/rebuild_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Composite/CMakeFiles/composite.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Composite/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/build/Structural/Composite/CMakeFiles/rebuild_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/multi_thread.dir
 D:/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/edit_cache.dir
 D:/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/rebuild_cache.dir

@@ -20,7 +20,11 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15,
+						16,
+						17
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -44,7 +48,7 @@
 					"source" : "Creational/FactoryMethod",
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				},
 				{
@@ -58,7 +62,7 @@
 					"source" : "Creational/Singleton",
 					"targetIndexes" : 
 					[
-						11
+						14
 					]
 				},
 				{
@@ -72,7 +76,7 @@
 					"source" : "Creational/Builder",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -86,7 +90,7 @@
 					"source" : "Behavioral/Observer",
 					"targetIndexes" : 
 					[
-						9
+						12
 					]
 				},
 				{
@@ -100,7 +104,7 @@
 					"source" : "Behavioral/Strategy",
 					"targetIndexes" : 
 					[
-						12
+						15
 					]
 				},
 				{
@@ -114,7 +118,7 @@
 					"source" : "Behavioral/TemplateMethod",
 					"targetIndexes" : 
 					[
-						13
+						16
 					]
 				},
 				{
@@ -128,7 +132,7 @@
 					"source" : "Behavioral/Iterator",
 					"targetIndexes" : 
 					[
-						7
+						10
 					]
 				},
 				{
@@ -142,7 +146,35 @@
 					"source" : "Behavioral/Command",
 					"targetIndexes" : 
 					[
-						3
+						4
+					]
+				},
+				{
+					"build" : "Behavioral/Interpreter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Behavioral/Interpreter",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Behavioral/Visitor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Behavioral/Visitor",
+					"targetIndexes" : 
+					[
+						17
 					]
 				},
 				{
@@ -152,11 +184,11 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 9,
+					"projectIndex" : 11,
 					"source" : "Structural/Decorator",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -166,7 +198,7 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 10,
+					"projectIndex" : 12,
 					"source" : "Structural/Adapter",
 					"targetIndexes" : 
 					[
@@ -180,11 +212,11 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 11,
+					"projectIndex" : 13,
 					"source" : "Structural/Facade",
 					"targetIndexes" : 
 					[
-						5
+						7
 					]
 				},
 				{
@@ -194,11 +226,39 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 12,
+					"projectIndex" : 14,
 					"source" : "Structural/Proxy",
 					"targetIndexes" : 
 					[
-						10
+						13
+					]
+				},
+				{
+					"build" : "Structural/Bridge",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Structural/Bridge",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Structural/Composite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Structural/Composite",
+					"targetIndexes" : 
+					[
+						5
 					]
 				},
 				{
@@ -208,11 +268,11 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 13,
+					"projectIndex" : 17,
 					"source" : "MultiThread",
 					"targetIndexes" : 
 					[
-						8
+						11
 					]
 				}
 			],
@@ -234,7 +294,11 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15,
+						16,
+						17
 					],
 					"directoryIndexes" : 
 					[
@@ -255,7 +319,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				},
 				{
@@ -267,7 +331,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						14
 					]
 				},
 				{
@@ -279,7 +343,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -291,7 +355,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						12
 					]
 				},
 				{
@@ -303,7 +367,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12
+						15
 					]
 				},
 				{
@@ -315,7 +379,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13
+						16
 					]
 				},
 				{
@@ -327,7 +391,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						10
 					]
 				},
 				{
@@ -339,7 +403,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -347,17 +411,41 @@
 					[
 						9
 					],
-					"name" : "decorator",
+					"name" : "interpreter",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						9
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
 						10
+					],
+					"name" : "visitor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "decorator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
 					],
 					"name" : "adapter",
 					"parentIndex" : 0,
@@ -369,9 +457,45 @@
 				{
 					"directoryIndexes" : 
 					[
-						11
+						13
 					],
 					"name" : "facade",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "proxy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "bridge",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "composite",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -381,25 +505,13 @@
 				{
 					"directoryIndexes" : 
 					[
-						12
-					],
-					"name" : "proxy",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						10
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						13
+						17
 					],
 					"name" : "multi_thread",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						11
 					]
 				}
 			],
@@ -408,16 +520,23 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PatternDesign::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PatternDesign-2fa641f43976d5f2ecfc.json",
+					"jsonFile" : "target-PatternDesign-d0168b8974c493fb8892.json",
 					"name" : "PatternDesign",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 10,
+					"directoryIndex" : 12,
 					"id" : "adapter::@ec4b815e919a2c248543",
 					"jsonFile" : "target-adapter-00f01ace088ee162af44.json",
 					"name" : "adapter",
-					"projectIndex" : 10
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "bridge::@abf9245908933f0b77ce",
+					"jsonFile" : "target-bridge-d852826c1dbd38541067.json",
+					"name" : "bridge",
+					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 3,
@@ -434,18 +553,25 @@
 					"projectIndex" : 8
 				},
 				{
-					"directoryIndex" : 9,
-					"id" : "decorator::@b4de40f8aca4343c2e12",
-					"jsonFile" : "target-decorator-2d67b52b4a6bdcecdc99.json",
-					"name" : "decorator",
-					"projectIndex" : 9
+					"directoryIndex" : 16,
+					"id" : "composite::@52491e09196b2e9d246a",
+					"jsonFile" : "target-composite-f7cf0206bbdbc081448d.json",
+					"name" : "composite",
+					"projectIndex" : 16
 				},
 				{
 					"directoryIndex" : 11,
+					"id" : "decorator::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-decorator-2d67b52b4a6bdcecdc99.json",
+					"name" : "decorator",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
 					"id" : "facade::@804682888e2a37931a0a",
 					"jsonFile" : "target-facade-971fe5f06f74db6a5dca.json",
 					"name" : "facade",
-					"projectIndex" : 11
+					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 1,
@@ -455,6 +581,13 @@
 					"projectIndex" : 1
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "interpreter::@412b33a3d22313b2d574",
+					"jsonFile" : "target-interpreter-0152ca5892e5ce2c5c6b.json",
+					"name" : "interpreter",
+					"projectIndex" : 9
+				},
+				{
 					"directoryIndex" : 7,
 					"id" : "iterator::@d669e51ae5da3bea948d",
 					"jsonFile" : "target-iterator-b2410827c31a2cdab6e8.json",
@@ -462,11 +595,11 @@
 					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 17,
 					"id" : "multi_thread::@434d96afdfc15791b5d2",
 					"jsonFile" : "target-multi_thread-1db948a251fad2a657e6.json",
 					"name" : "multi_thread",
-					"projectIndex" : 13
+					"projectIndex" : 17
 				},
 				{
 					"directoryIndex" : 4,
@@ -476,11 +609,11 @@
 					"projectIndex" : 4
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 14,
 					"id" : "proxy::@d175104507500c00c80b",
 					"jsonFile" : "target-proxy-ce11afadb8539eaa1b77.json",
 					"name" : "proxy",
-					"projectIndex" : 12
+					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 2,
@@ -502,6 +635,13 @@
 					"jsonFile" : "target-template_method-fd6435330d018bba4903.json",
 					"name" : "template_method",
 					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "visitor::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-visitor-0e9e3200c4d1bc524e9d.json",
+					"name" : "visitor",
+					"projectIndex" : 10
 				}
 			]
 		}

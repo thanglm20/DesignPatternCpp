@@ -71,10 +71,14 @@ all: Behavioral/Strategy/all
 all: Behavioral/TemplateMethod/all
 all: Behavioral/Iterator/all
 all: Behavioral/Command/all
+all: Behavioral/Interpreter/all
+all: Behavioral/Visitor/all
 all: Structural/Decorator/all
 all: Structural/Adapter/all
 all: Structural/Facade/all
 all: Structural/Proxy/all
+all: Structural/Bridge/all
+all: Structural/Composite/all
 all: MultiThread/all
 .PHONY : all
 
@@ -87,10 +91,14 @@ preinstall: Behavioral/Strategy/preinstall
 preinstall: Behavioral/TemplateMethod/preinstall
 preinstall: Behavioral/Iterator/preinstall
 preinstall: Behavioral/Command/preinstall
+preinstall: Behavioral/Interpreter/preinstall
+preinstall: Behavioral/Visitor/preinstall
 preinstall: Structural/Decorator/preinstall
 preinstall: Structural/Adapter/preinstall
 preinstall: Structural/Facade/preinstall
 preinstall: Structural/Proxy/preinstall
+preinstall: Structural/Bridge/preinstall
+preinstall: Structural/Composite/preinstall
 preinstall: MultiThread/preinstall
 .PHONY : preinstall
 
@@ -104,10 +112,14 @@ clean: Behavioral/Strategy/clean
 clean: Behavioral/TemplateMethod/clean
 clean: Behavioral/Iterator/clean
 clean: Behavioral/Command/clean
+clean: Behavioral/Interpreter/clean
+clean: Behavioral/Visitor/clean
 clean: Structural/Decorator/clean
 clean: Structural/Adapter/clean
 clean: Structural/Facade/clean
 clean: Structural/Proxy/clean
+clean: Structural/Bridge/clean
+clean: Structural/Composite/clean
 clean: MultiThread/clean
 .PHONY : clean
 
@@ -125,6 +137,21 @@ Behavioral/Command/preinstall:
 # Recursive "clean" directory target.
 Behavioral/Command/clean: Behavioral/Command/CMakeFiles/command.dir/clean
 .PHONY : Behavioral/Command/clean
+
+#=============================================================================
+# Directory level rules for directory Behavioral/Interpreter
+
+# Recursive "all" directory target.
+Behavioral/Interpreter/all: Behavioral/Interpreter/CMakeFiles/interpreter.dir/all
+.PHONY : Behavioral/Interpreter/all
+
+# Recursive "preinstall" directory target.
+Behavioral/Interpreter/preinstall:
+.PHONY : Behavioral/Interpreter/preinstall
+
+# Recursive "clean" directory target.
+Behavioral/Interpreter/clean: Behavioral/Interpreter/CMakeFiles/interpreter.dir/clean
+.PHONY : Behavioral/Interpreter/clean
 
 #=============================================================================
 # Directory level rules for directory Behavioral/Iterator
@@ -185,6 +212,21 @@ Behavioral/TemplateMethod/preinstall:
 # Recursive "clean" directory target.
 Behavioral/TemplateMethod/clean: Behavioral/TemplateMethod/CMakeFiles/template_method.dir/clean
 .PHONY : Behavioral/TemplateMethod/clean
+
+#=============================================================================
+# Directory level rules for directory Behavioral/Visitor
+
+# Recursive "all" directory target.
+Behavioral/Visitor/all: Behavioral/Visitor/CMakeFiles/visitor.dir/all
+.PHONY : Behavioral/Visitor/all
+
+# Recursive "preinstall" directory target.
+Behavioral/Visitor/preinstall:
+.PHONY : Behavioral/Visitor/preinstall
+
+# Recursive "clean" directory target.
+Behavioral/Visitor/clean: Behavioral/Visitor/CMakeFiles/visitor.dir/clean
+.PHONY : Behavioral/Visitor/clean
 
 #=============================================================================
 # Directory level rules for directory Creational/Builder
@@ -260,6 +302,36 @@ Structural/Adapter/preinstall:
 # Recursive "clean" directory target.
 Structural/Adapter/clean: Structural/Adapter/CMakeFiles/adapter.dir/clean
 .PHONY : Structural/Adapter/clean
+
+#=============================================================================
+# Directory level rules for directory Structural/Bridge
+
+# Recursive "all" directory target.
+Structural/Bridge/all: Structural/Bridge/CMakeFiles/bridge.dir/all
+.PHONY : Structural/Bridge/all
+
+# Recursive "preinstall" directory target.
+Structural/Bridge/preinstall:
+.PHONY : Structural/Bridge/preinstall
+
+# Recursive "clean" directory target.
+Structural/Bridge/clean: Structural/Bridge/CMakeFiles/bridge.dir/clean
+.PHONY : Structural/Bridge/clean
+
+#=============================================================================
+# Directory level rules for directory Structural/Composite
+
+# Recursive "all" directory target.
+Structural/Composite/all: Structural/Composite/CMakeFiles/composite.dir/all
+.PHONY : Structural/Composite/all
+
+# Recursive "preinstall" directory target.
+Structural/Composite/preinstall:
+.PHONY : Structural/Composite/preinstall
+
+# Recursive "clean" directory target.
+Structural/Composite/clean: Structural/Composite/CMakeFiles/composite.dir/clean
+.PHONY : Structural/Composite/clean
 
 #=============================================================================
 # Directory level rules for directory Structural/Decorator
@@ -339,7 +411,7 @@ CMakeFiles/PatternDesign.dir/clean:
 Creational/FactoryMethod/CMakeFiles/factory_method.dir/all:
 	$(MAKE) $(MAKESILENT) -f Creational\FactoryMethod\CMakeFiles\factory_method.dir\build.make Creational/FactoryMethod/CMakeFiles/factory_method.dir/depend
 	$(MAKE) $(MAKESILENT) -f Creational\FactoryMethod\CMakeFiles\factory_method.dir\build.make Creational/FactoryMethod/CMakeFiles/factory_method.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=13,14 "Built target factory_method"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=17,18 "Built target factory_method"
 .PHONY : Creational/FactoryMethod/CMakeFiles/factory_method.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +437,7 @@ Creational/FactoryMethod/CMakeFiles/factory_method.dir/clean:
 Creational/Singleton/CMakeFiles/singleton.dir/all:
 	$(MAKE) $(MAKESILENT) -f Creational\Singleton\CMakeFiles\singleton.dir\build.make Creational/Singleton/CMakeFiles/singleton.dir/depend
 	$(MAKE) $(MAKESILENT) -f Creational\Singleton\CMakeFiles\singleton.dir\build.make Creational/Singleton/CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=25,26 "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=31,32 "Built target singleton"
 .PHONY : Creational/Singleton/CMakeFiles/singleton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +463,7 @@ Creational/Singleton/CMakeFiles/singleton.dir/clean:
 Creational/Builder/CMakeFiles/builder.dir/all:
 	$(MAKE) $(MAKESILENT) -f Creational\Builder\CMakeFiles\builder.dir\build.make Creational/Builder/CMakeFiles/builder.dir/depend
 	$(MAKE) $(MAKESILENT) -f Creational\Builder\CMakeFiles\builder.dir\build.make Creational/Builder/CMakeFiles/builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=5,6 "Built target builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=7,8 "Built target builder"
 .PHONY : Creational/Builder/CMakeFiles/builder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +489,7 @@ Creational/Builder/CMakeFiles/builder.dir/clean:
 Behavioral/Observer/CMakeFiles/observer.dir/all:
 	$(MAKE) $(MAKESILENT) -f Behavioral\Observer\CMakeFiles\observer.dir\build.make Behavioral/Observer/CMakeFiles/observer.dir/depend
 	$(MAKE) $(MAKESILENT) -f Behavioral\Observer\CMakeFiles\observer.dir\build.make Behavioral/Observer/CMakeFiles/observer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=21,22 "Built target observer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=27,28 "Built target observer"
 .PHONY : Behavioral/Observer/CMakeFiles/observer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -443,7 +515,7 @@ Behavioral/Observer/CMakeFiles/observer.dir/clean:
 Behavioral/Strategy/CMakeFiles/strategy.dir/all:
 	$(MAKE) $(MAKESILENT) -f Behavioral\Strategy\CMakeFiles\strategy.dir\build.make Behavioral/Strategy/CMakeFiles/strategy.dir/depend
 	$(MAKE) $(MAKESILENT) -f Behavioral\Strategy\CMakeFiles\strategy.dir\build.make Behavioral/Strategy/CMakeFiles/strategy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=27,28 "Built target strategy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=33,34 "Built target strategy"
 .PHONY : Behavioral/Strategy/CMakeFiles/strategy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -469,7 +541,7 @@ Behavioral/Strategy/CMakeFiles/strategy.dir/clean:
 Behavioral/TemplateMethod/CMakeFiles/template_method.dir/all:
 	$(MAKE) $(MAKESILENT) -f Behavioral\TemplateMethod\CMakeFiles\template_method.dir\build.make Behavioral/TemplateMethod/CMakeFiles/template_method.dir/depend
 	$(MAKE) $(MAKESILENT) -f Behavioral\TemplateMethod\CMakeFiles\template_method.dir\build.make Behavioral/TemplateMethod/CMakeFiles/template_method.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=29,30 "Built target template_method"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=35,36 "Built target template_method"
 .PHONY : Behavioral/TemplateMethod/CMakeFiles/template_method.dir/all
 
 # Build rule for subdir invocation for target.
@@ -495,7 +567,7 @@ Behavioral/TemplateMethod/CMakeFiles/template_method.dir/clean:
 Behavioral/Iterator/CMakeFiles/iterator.dir/all:
 	$(MAKE) $(MAKESILENT) -f Behavioral\Iterator\CMakeFiles\iterator.dir\build.make Behavioral/Iterator/CMakeFiles/iterator.dir/depend
 	$(MAKE) $(MAKESILENT) -f Behavioral\Iterator\CMakeFiles\iterator.dir\build.make Behavioral/Iterator/CMakeFiles/iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=15,16 "Built target iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=21,22 "Built target iterator"
 .PHONY : Behavioral/Iterator/CMakeFiles/iterator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -521,7 +593,7 @@ Behavioral/Iterator/CMakeFiles/iterator.dir/clean:
 Behavioral/Command/CMakeFiles/command.dir/all:
 	$(MAKE) $(MAKESILENT) -f Behavioral\Command\CMakeFiles\command.dir\build.make Behavioral/Command/CMakeFiles/command.dir/depend
 	$(MAKE) $(MAKESILENT) -f Behavioral\Command\CMakeFiles\command.dir\build.make Behavioral/Command/CMakeFiles/command.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=7,8 "Built target command"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=9,10 "Built target command"
 .PHONY : Behavioral/Command/CMakeFiles/command.dir/all
 
 # Build rule for subdir invocation for target.
@@ -541,13 +613,65 @@ Behavioral/Command/CMakeFiles/command.dir/clean:
 .PHONY : Behavioral/Command/CMakeFiles/command.dir/clean
 
 #=============================================================================
+# Target rules for target Behavioral/Interpreter/CMakeFiles/interpreter.dir
+
+# All Build rule for target.
+Behavioral/Interpreter/CMakeFiles/interpreter.dir/all:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Interpreter\CMakeFiles\interpreter.dir\build.make Behavioral/Interpreter/CMakeFiles/interpreter.dir/depend
+	$(MAKE) $(MAKESILENT) -f Behavioral\Interpreter\CMakeFiles\interpreter.dir\build.make Behavioral/Interpreter/CMakeFiles/interpreter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=19,20 "Built target interpreter"
+.PHONY : Behavioral/Interpreter/CMakeFiles/interpreter.dir/all
+
+# Build rule for subdir invocation for target.
+Behavioral/Interpreter/CMakeFiles/interpreter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Behavioral/Interpreter/CMakeFiles/interpreter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 0
+.PHONY : Behavioral/Interpreter/CMakeFiles/interpreter.dir/rule
+
+# Convenience name for target.
+interpreter: Behavioral/Interpreter/CMakeFiles/interpreter.dir/rule
+.PHONY : interpreter
+
+# clean rule for target.
+Behavioral/Interpreter/CMakeFiles/interpreter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Interpreter\CMakeFiles\interpreter.dir\build.make Behavioral/Interpreter/CMakeFiles/interpreter.dir/clean
+.PHONY : Behavioral/Interpreter/CMakeFiles/interpreter.dir/clean
+
+#=============================================================================
+# Target rules for target Behavioral/Visitor/CMakeFiles/visitor.dir
+
+# All Build rule for target.
+Behavioral/Visitor/CMakeFiles/visitor.dir/all:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Visitor\CMakeFiles\visitor.dir\build.make Behavioral/Visitor/CMakeFiles/visitor.dir/depend
+	$(MAKE) $(MAKESILENT) -f Behavioral\Visitor\CMakeFiles\visitor.dir\build.make Behavioral/Visitor/CMakeFiles/visitor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=37,38 "Built target visitor"
+.PHONY : Behavioral/Visitor/CMakeFiles/visitor.dir/all
+
+# Build rule for subdir invocation for target.
+Behavioral/Visitor/CMakeFiles/visitor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Behavioral/Visitor/CMakeFiles/visitor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 0
+.PHONY : Behavioral/Visitor/CMakeFiles/visitor.dir/rule
+
+# Convenience name for target.
+visitor: Behavioral/Visitor/CMakeFiles/visitor.dir/rule
+.PHONY : visitor
+
+# clean rule for target.
+Behavioral/Visitor/CMakeFiles/visitor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Behavioral\Visitor\CMakeFiles\visitor.dir\build.make Behavioral/Visitor/CMakeFiles/visitor.dir/clean
+.PHONY : Behavioral/Visitor/CMakeFiles/visitor.dir/clean
+
+#=============================================================================
 # Target rules for target Structural/Decorator/CMakeFiles/decorator.dir
 
 # All Build rule for target.
 Structural/Decorator/CMakeFiles/decorator.dir/all:
 	$(MAKE) $(MAKESILENT) -f Structural\Decorator\CMakeFiles\decorator.dir\build.make Structural/Decorator/CMakeFiles/decorator.dir/depend
 	$(MAKE) $(MAKESILENT) -f Structural\Decorator\CMakeFiles\decorator.dir\build.make Structural/Decorator/CMakeFiles/decorator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=9,10 "Built target decorator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=13,14 "Built target decorator"
 .PHONY : Structural/Decorator/CMakeFiles/decorator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -599,7 +723,7 @@ Structural/Adapter/CMakeFiles/adapter.dir/clean:
 Structural/Facade/CMakeFiles/facade.dir/all:
 	$(MAKE) $(MAKESILENT) -f Structural\Facade\CMakeFiles\facade.dir\build.make Structural/Facade/CMakeFiles/facade.dir/depend
 	$(MAKE) $(MAKESILENT) -f Structural\Facade\CMakeFiles\facade.dir\build.make Structural/Facade/CMakeFiles/facade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=11,12 "Built target facade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=15,16 "Built target facade"
 .PHONY : Structural/Facade/CMakeFiles/facade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -625,7 +749,7 @@ Structural/Facade/CMakeFiles/facade.dir/clean:
 Structural/Proxy/CMakeFiles/proxy.dir/all:
 	$(MAKE) $(MAKESILENT) -f Structural\Proxy\CMakeFiles\proxy.dir\build.make Structural/Proxy/CMakeFiles/proxy.dir/depend
 	$(MAKE) $(MAKESILENT) -f Structural\Proxy\CMakeFiles\proxy.dir\build.make Structural/Proxy/CMakeFiles/proxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=23,24 "Built target proxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=29,30 "Built target proxy"
 .PHONY : Structural/Proxy/CMakeFiles/proxy.dir/all
 
 # Build rule for subdir invocation for target.
@@ -645,13 +769,65 @@ Structural/Proxy/CMakeFiles/proxy.dir/clean:
 .PHONY : Structural/Proxy/CMakeFiles/proxy.dir/clean
 
 #=============================================================================
+# Target rules for target Structural/Bridge/CMakeFiles/bridge.dir
+
+# All Build rule for target.
+Structural/Bridge/CMakeFiles/bridge.dir/all:
+	$(MAKE) $(MAKESILENT) -f Structural\Bridge\CMakeFiles\bridge.dir\build.make Structural/Bridge/CMakeFiles/bridge.dir/depend
+	$(MAKE) $(MAKESILENT) -f Structural\Bridge\CMakeFiles\bridge.dir\build.make Structural/Bridge/CMakeFiles/bridge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=5,6 "Built target bridge"
+.PHONY : Structural/Bridge/CMakeFiles/bridge.dir/all
+
+# Build rule for subdir invocation for target.
+Structural/Bridge/CMakeFiles/bridge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Structural/Bridge/CMakeFiles/bridge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 0
+.PHONY : Structural/Bridge/CMakeFiles/bridge.dir/rule
+
+# Convenience name for target.
+bridge: Structural/Bridge/CMakeFiles/bridge.dir/rule
+.PHONY : bridge
+
+# clean rule for target.
+Structural/Bridge/CMakeFiles/bridge.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Structural\Bridge\CMakeFiles\bridge.dir\build.make Structural/Bridge/CMakeFiles/bridge.dir/clean
+.PHONY : Structural/Bridge/CMakeFiles/bridge.dir/clean
+
+#=============================================================================
+# Target rules for target Structural/Composite/CMakeFiles/composite.dir
+
+# All Build rule for target.
+Structural/Composite/CMakeFiles/composite.dir/all:
+	$(MAKE) $(MAKESILENT) -f Structural\Composite\CMakeFiles\composite.dir\build.make Structural/Composite/CMakeFiles/composite.dir/depend
+	$(MAKE) $(MAKESILENT) -f Structural\Composite\CMakeFiles\composite.dir\build.make Structural/Composite/CMakeFiles/composite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=11,12 "Built target composite"
+.PHONY : Structural/Composite/CMakeFiles/composite.dir/all
+
+# Build rule for subdir invocation for target.
+Structural/Composite/CMakeFiles/composite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Structural/Composite/CMakeFiles/composite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles 0
+.PHONY : Structural/Composite/CMakeFiles/composite.dir/rule
+
+# Convenience name for target.
+composite: Structural/Composite/CMakeFiles/composite.dir/rule
+.PHONY : composite
+
+# clean rule for target.
+Structural/Composite/CMakeFiles/composite.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Structural\Composite\CMakeFiles\composite.dir\build.make Structural/Composite/CMakeFiles/composite.dir/clean
+.PHONY : Structural/Composite/CMakeFiles/composite.dir/clean
+
+#=============================================================================
 # Target rules for target MultiThread/CMakeFiles/multi_thread.dir
 
 # All Build rule for target.
 MultiThread/CMakeFiles/multi_thread.dir/all:
 	$(MAKE) $(MAKESILENT) -f MultiThread\CMakeFiles\multi_thread.dir\build.make MultiThread/CMakeFiles/multi_thread.dir/depend
 	$(MAKE) $(MAKESILENT) -f MultiThread\CMakeFiles\multi_thread.dir\build.make MultiThread/CMakeFiles/multi_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=17,18,19,20 "Built target multi_thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles --progress-num=23,24,25,26 "Built target multi_thread"
 .PHONY : MultiThread/CMakeFiles/multi_thread.dir/all
 
 # Build rule for subdir invocation for target.

@@ -127,7 +127,29 @@ Structural/Adapter/CMakeFiles/adapter.dir/main.cpp.obj: ../Structural/Adapter/ma
   D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/basic_ios.tcc \
   D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/ostream.tcc \
   D:/ThangLM/Setups/MinGW/include/c++/9.2.0/istream \
-  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/istream.tcc
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/istream.tcc \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/memory \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_construct.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_uninitialized.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_tempbuf.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_raw_storage_iter.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/ext/concurrence.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/uses_allocator.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/unique_ptr.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/utility \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_relops.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/tuple \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/array \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/invoke.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr_base.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/allocated_ptr.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/refwrap.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/ext/aligned_buffer.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr_atomic.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/atomic_base.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/atomic_lockfree_defines.h \
+  D:/ThangLM/Setups/MinGW/include/c++/9.2.0/backward/auto_ptr.h
 
 
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_iterator_base_types.h:
@@ -146,6 +168,8 @@ D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/include/stdint.h:
 
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/tuple:
+
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/move.h:
 
 D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
@@ -157,6 +181,8 @@ D:/ThangLM/Setups/MinGW/include/c++/9.2.0/iostream:
 D:/ThangLM/Setups/MinGW/x86_64-w64-mingw32/include/sys/timeb.h:
 
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/ios:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/utility:
 
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/type_traits:
 
@@ -382,4 +408,44 @@ D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/basic_ios.tcc:
 
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/ostream.tcc:
 
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr_atomic.h:
+
 D:/ThangLM/Setups/MinGW/include/c++/9.2.0/istream:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/memory:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_construct.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_uninitialized.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_tempbuf.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_raw_storage_iter.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/ext/concurrence.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/uses_allocator.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/unique_ptr.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/stl_relops.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/array:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/invoke.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/shared_ptr_base.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/allocated_ptr.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/refwrap.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/ext/aligned_buffer.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/atomic_base.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/bits/atomic_lockfree_defines.h:
+
+D:/ThangLM/Setups/MinGW/include/c++/9.2.0/backward/auto_ptr.h:
