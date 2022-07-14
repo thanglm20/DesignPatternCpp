@@ -9,4 +9,8 @@
 /media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Structural/Bridge/main.cpp
 iostream
 -
+iostream
+-
+string
+-
 

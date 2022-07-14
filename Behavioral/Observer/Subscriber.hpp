@@ -5,17 +5,17 @@
 
 #include "Observer.hpp"
 #include "Subject.hpp"
-
+#include <memory>
 class Subscriber1 : public Observer
 {
 private:
-    ComputerShop* m_subject = nullptr;
+    std::shared_ptr<Subject> m_subject = nullptr;
 public:
-    Subscriber1(ComputerShop* subject) : m_subject(subject)
+    Subscriber1(std::shared_ptr<Subject>& subject) : m_subject(subject)
     {
         m_subject->subscribe(this);
     }
-    ~Subscriber1()
+    virtual ~Subscriber1()
     {     
     }
     void update() override
@@ -27,16 +27,16 @@ public:
     }
 };
 
-class Subscriber2 : public Observer
+class Subscriber2 : public Observer,  std::enable_shared_from_this<Subscriber2>
 {
 private:
-    ComputerShop* m_subject = nullptr;
+    std::shared_ptr<Subject> m_subject = nullptr;
 public:
-    Subscriber2(ComputerShop* subject) : m_subject(subject)
+    Subscriber2(std::shared_ptr<Subject>& subject) : m_subject(subject)
     { 
         m_subject->subscribe(this);
     }
-    ~Subscriber2()
+    virtual ~Subscriber2()
     {     
     }
     void update() override
@@ -51,15 +51,14 @@ public:
 class Subscriber3 : public Observer
 {
 private:
-    ComputerShop* m_subject = nullptr;
+    std::shared_ptr<Subject> m_subject = nullptr;
 public:
-    Subscriber3(ComputerShop* subject) : m_subject(subject)
+    Subscriber3(std::shared_ptr<Subject>& subject) : m_subject(subject)
     { 
         m_subject->subscribe(this);
     }
-    ~Subscriber3()
+    virtual ~Subscriber3()
     {     
-        
     }
     void update() override
     {

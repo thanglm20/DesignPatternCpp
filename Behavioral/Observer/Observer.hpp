@@ -10,7 +10,7 @@ public:
     Observer() 
     {
     }
-    ~Observer()
+    virtual ~Observer()
     {
     }
     virtual void update() = 0;

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/multi_thread.dir/Receiver.cpp.o CMakeFiles/multi_thread.dir/Sender.cpp.o CMakeFiles/multi_thread.dir/main.cpp.o  -o multi_thread 
+/usr/bin/c++     CMakeFiles/multi_thread.dir/Receiver.cpp.o CMakeFiles/multi_thread.dir/Sender.cpp.o CMakeFiles/multi_thread.dir/main.cpp.o  -o multi_thread  -lpthread 

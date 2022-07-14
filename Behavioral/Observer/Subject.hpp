@@ -6,7 +6,7 @@
 #include "Observer.hpp"
 #include <algorithm>
 #include <iterator> // for iterators
-
+#include <memory>
 
 class Subject
 {
@@ -18,12 +18,12 @@ public:
     {
 
     }
-    ~Subject()
+    virtual ~Subject()
     {
-        // std::vector<Observer*>::iterator it;
-        for(auto it = m_observers.begin(); it != m_observers.end(); ++it)
-            if(*it != nullptr)
-                m_observers.erase(it);
+        std::cout << " ~Subject()" << std::endl;
+
+        m_observers.clear();
+                
     }
     void subscribe(Observer* observer)
     {
@@ -48,6 +48,9 @@ public:
     {
         return m_observers.size();
     }
+    virtual void setDiscount(std::string serial, float discount, int numberOfProduct) = 0;
+    virtual void getDiscount() = 0;
+
 };
 
 
@@ -59,22 +62,26 @@ private:
     std::string m_serial;
     int m_numberOfProduct;
 public:
+    ComputerShop(){}
+    virtual ~ComputerShop() 
+    {      
+        
+        std::cout << " ~ComputerShop() " << std::endl;
 
-    void setDiscount(std::string serial, float discount, int numberOfProduct)
+    }   
+    void setDiscount(std::string serial, float discount, int numberOfProduct) override
     {
         m_discount = discount;
         m_serial = serial;
         m_numberOfProduct = numberOfProduct;
     }
-    void getDiscount()
+    void getDiscount() override
     {
         std::cout << "Discount Computer Shop notifications: " << std::endl;
         std::cout << "serial: " << m_serial << std::endl;
         std::cout << "discout: " << m_discount << "%" << std::endl;
         std::cout << "available products: " << m_numberOfProduct << std::endl;
     }
-
 };
-
 
 #endif

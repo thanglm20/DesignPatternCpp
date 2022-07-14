@@ -19,14 +19,20 @@ algorithm
 -
 iterator
 -
+memory
+-
 
 /media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Observer/Subscriber.hpp
 Observer.hpp
 /media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Observer/Observer.hpp
 Subject.hpp
 /media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Observer/Subject.hpp
+memory
+-
 
 /media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Observer/main.cpp
+cstdlib
+-
 iostream
 -
 vector
