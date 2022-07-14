@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/strategy.dir/main.cpp.obj"
-  "CMakeFiles/strategy.dir/main.cpp.obj.d"
-  "libstrategy.dll.a"
-  "strategy.exe"
-  "strategy.exe.manifest"
+  "CMakeFiles/strategy.dir/main.cpp.o"
+  "strategy"
   "strategy.pdb"
 )
 

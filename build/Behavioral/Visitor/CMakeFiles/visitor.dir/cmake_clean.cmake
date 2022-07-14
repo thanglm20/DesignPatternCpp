@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/visitor.dir/main.cpp.obj"
-  "CMakeFiles/visitor.dir/main.cpp.obj.d"
-  "libvisitor.dll.a"
-  "visitor.exe"
-  "visitor.exe.manifest"
+  "CMakeFiles/visitor.dir/main.cpp.o"
+  "visitor"
   "visitor.pdb"
 )
 

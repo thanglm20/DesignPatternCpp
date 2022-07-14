@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/factory_method.dir/main.cpp.obj"
-  "CMakeFiles/factory_method.dir/main.cpp.obj.d"
-  "factory_method.exe"
-  "factory_method.exe.manifest"
+  "CMakeFiles/factory_method.dir/main.cpp.o"
+  "factory_method"
   "factory_method.pdb"
-  "libfactory_method.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

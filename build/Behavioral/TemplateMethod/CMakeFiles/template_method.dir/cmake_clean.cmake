@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/template_method.dir/main.cpp.obj"
-  "CMakeFiles/template_method.dir/main.cpp.obj.d"
-  "libtemplate_method.dll.a"
-  "template_method.exe"
-  "template_method.exe.manifest"
+  "CMakeFiles/template_method.dir/main.cpp.o"
+  "template_method"
   "template_method.pdb"
 )
 

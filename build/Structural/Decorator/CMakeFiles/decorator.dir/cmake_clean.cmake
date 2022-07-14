@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/decorator.dir/main.cpp.obj"
-  "CMakeFiles/decorator.dir/main.cpp.obj.d"
-  "decorator.exe"
-  "decorator.exe.manifest"
+  "CMakeFiles/decorator.dir/main.cpp.o"
+  "decorator"
   "decorator.pdb"
-  "libdecorator.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

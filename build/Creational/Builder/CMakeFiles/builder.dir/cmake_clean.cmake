@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/builder.dir/main.cpp.obj"
-  "CMakeFiles/builder.dir/main.cpp.obj.d"
-  "builder.exe"
-  "builder.exe.manifest"
+  "CMakeFiles/builder.dir/main.cpp.o"
+  "builder"
   "builder.pdb"
-  "libbuilder.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

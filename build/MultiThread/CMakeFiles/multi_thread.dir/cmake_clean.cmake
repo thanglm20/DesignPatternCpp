@@ -1,13 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/multi_thread.dir/Receiver.cpp.obj"
-  "CMakeFiles/multi_thread.dir/Receiver.cpp.obj.d"
-  "CMakeFiles/multi_thread.dir/Sender.cpp.obj"
-  "CMakeFiles/multi_thread.dir/Sender.cpp.obj.d"
-  "CMakeFiles/multi_thread.dir/main.cpp.obj"
-  "CMakeFiles/multi_thread.dir/main.cpp.obj.d"
-  "libmulti_thread.dll.a"
-  "multi_thread.exe"
-  "multi_thread.exe.manifest"
+  "CMakeFiles/multi_thread.dir/Receiver.cpp.o"
+  "CMakeFiles/multi_thread.dir/Sender.cpp.o"
+  "CMakeFiles/multi_thread.dir/main.cpp.o"
+  "multi_thread"
   "multi_thread.pdb"
 )
 

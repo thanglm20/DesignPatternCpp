@@ -1,16 +1,17 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/MultiThread/Receiver.cpp" "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/multi_thread.dir/Receiver.cpp.o"
+  "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/MultiThread/Sender.cpp" "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/multi_thread.dir/Sender.cpp.o"
+  "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/MultiThread/main.cpp" "/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/build/MultiThread/CMakeFiles/multi_thread.dir/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/ThangLM/Proejcts/PatternDesign/MultiThread/Receiver.cpp" "MultiThread/CMakeFiles/multi_thread.dir/Receiver.cpp.obj" "gcc" "MultiThread/CMakeFiles/multi_thread.dir/Receiver.cpp.obj.d"
-  "D:/ThangLM/Proejcts/PatternDesign/MultiThread/Sender.cpp" "MultiThread/CMakeFiles/multi_thread.dir/Sender.cpp.obj" "gcc" "MultiThread/CMakeFiles/multi_thread.dir/Sender.cpp.obj.d"
-  "D:/ThangLM/Proejcts/PatternDesign/MultiThread/main.cpp" "MultiThread/CMakeFiles/multi_thread.dir/main.cpp.obj" "gcc" "MultiThread/CMakeFiles/multi_thread.dir/main.cpp.obj.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

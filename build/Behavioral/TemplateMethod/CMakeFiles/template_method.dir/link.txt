@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\template_method.dir/objects.a
-D:\ThangLM\Setups\MinGW\bin\ar.exe cr CMakeFiles\template_method.dir/objects.a @CMakeFiles\template_method.dir\objects1.rsp
-D:\ThangLM\Setups\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\template_method.dir/objects.a -Wl,--no-whole-archive -o template_method.exe -Wl,--out-implib,libtemplate_method.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\template_method.dir\linklibs.rsp
+/usr/bin/c++     CMakeFiles/template_method.dir/main.cpp.o  -o template_method 

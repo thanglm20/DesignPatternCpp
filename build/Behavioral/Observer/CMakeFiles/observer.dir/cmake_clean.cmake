@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/observer.dir/main.cpp.obj"
-  "CMakeFiles/observer.dir/main.cpp.obj.d"
-  "libobserver.dll.a"
-  "observer.exe"
-  "observer.exe.manifest"
+  "CMakeFiles/observer.dir/main.cpp.o"
+  "observer"
   "observer.pdb"
 )
 

@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/proxy.dir/main.cpp.obj"
-  "CMakeFiles/proxy.dir/main.cpp.obj.d"
-  "libproxy.dll.a"
-  "proxy.exe"
-  "proxy.exe.manifest"
+  "CMakeFiles/proxy.dir/main.cpp.o"
+  "proxy"
   "proxy.pdb"
 )
 

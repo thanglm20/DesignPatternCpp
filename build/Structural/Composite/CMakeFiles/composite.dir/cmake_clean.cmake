@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/composite.dir/main.cpp.obj"
-  "CMakeFiles/composite.dir/main.cpp.obj.d"
-  "composite.exe"
-  "composite.exe.manifest"
+  "CMakeFiles/composite.dir/main.cpp.o"
+  "composite"
   "composite.pdb"
-  "libcomposite.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

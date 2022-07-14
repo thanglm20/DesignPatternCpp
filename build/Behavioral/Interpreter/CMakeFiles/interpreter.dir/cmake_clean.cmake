@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interpreter.dir/main.cpp.obj"
-  "CMakeFiles/interpreter.dir/main.cpp.obj.d"
-  "interpreter.exe"
-  "interpreter.exe.manifest"
+  "CMakeFiles/interpreter.dir/main.cpp.o"
+  "interpreter"
   "interpreter.pdb"
-  "libinterpreter.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

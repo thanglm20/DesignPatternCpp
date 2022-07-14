@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PatternDesign.dir/main.cpp.obj"
-  "CMakeFiles/PatternDesign.dir/main.cpp.obj.d"
-  "PatternDesign.exe"
-  "PatternDesign.exe.manifest"
+  "CMakeFiles/PatternDesign.dir/main.cpp.o"
+  "PatternDesign"
   "PatternDesign.pdb"
-  "libPatternDesign.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

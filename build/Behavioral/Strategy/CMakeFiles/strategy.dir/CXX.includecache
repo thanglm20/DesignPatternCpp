@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/DiscountStrategy.hpp
+iostream
+-
+string
+-
+vector
+-
+Product.hpp
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/Product.hpp
+
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/Order.hpp
+Product.hpp
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/Product.hpp
+vector
+-
+DiscountStrategy.hpp
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/DiscountStrategy.hpp
+
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/Product.hpp
+iostream
+-
+string
+-
+
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/main.cpp
+functional
+-
+Order.hpp
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/Order.hpp
+DiscountStrategy.hpp
+/media/thanglm/Data/ThangLM/Proejcts/PatternDesign/Behavioral/Strategy/DiscountStrategy.hpp
+

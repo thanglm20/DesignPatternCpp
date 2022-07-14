@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/iterator.dir/main.cpp.obj"
-  "CMakeFiles/iterator.dir/main.cpp.obj.d"
-  "iterator.exe"
-  "iterator.exe.manifest"
+  "CMakeFiles/iterator.dir/main.cpp.o"
+  "iterator"
   "iterator.pdb"
-  "libiterator.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
