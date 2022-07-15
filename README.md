@@ -9,6 +9,7 @@ make
 
 ```
 ## Run
+```
 ./Creational/Singleton/singleton
 ./Creational/FactoryMethod/factory_method
 ./Creational/Builder/builder
@@ -24,3 +25,4 @@ make
 ./Structural/Proxy/proxy
 ./Structural/Composite/composite
 ./MultiThread/multi_thread
+```
