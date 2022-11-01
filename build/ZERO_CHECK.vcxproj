@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC11A1FE-667A-36C8-A37B-0EF400EB6C5E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\63995b330b025918a410932b9be99fa2\generate.stamp.rule">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ThangLM/Proejcts/PatternDesign -BD:/ThangLM/Proejcts/PatternDesign/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ThangLM/Proejcts/PatternDesign/build/PatternDesign.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Command\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Interpreter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Iterator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Observer\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Strategy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\TemplateMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Visitor\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Builder\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\FactoryMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Singleton\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\MultiThread\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Adapter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Bridge\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Composite\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Decorator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Facade\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Proxy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCXXCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeRCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\FactoryMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Singleton\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Builder\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Observer\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Strategy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\TemplateMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Iterator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Command\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Interpreter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Visitor\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Decorator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Adapter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Facade\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Proxy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Bridge\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Composite\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\MultiThread\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ThangLM/Proejcts/PatternDesign -BD:/ThangLM/Proejcts/PatternDesign/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ThangLM/Proejcts/PatternDesign/build/PatternDesign.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Command\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Interpreter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Iterator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Observer\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Strategy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\TemplateMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Visitor\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Builder\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\FactoryMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Singleton\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\MultiThread\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Adapter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Bridge\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Composite\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Decorator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Facade\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Proxy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCXXCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeRCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\FactoryMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Singleton\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Builder\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Observer\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Strategy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\TemplateMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Iterator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Command\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Interpreter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Visitor\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Decorator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Adapter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Facade\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Proxy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Bridge\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Composite\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\MultiThread\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ThangLM/Proejcts/PatternDesign -BD:/ThangLM/Proejcts/PatternDesign/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ThangLM/Proejcts/PatternDesign/build/PatternDesign.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Command\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Interpreter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Iterator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Observer\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Strategy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\TemplateMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Visitor\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Builder\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\FactoryMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Singleton\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\MultiThread\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Adapter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Bridge\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Composite\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Decorator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Facade\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Proxy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCXXCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeRCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\FactoryMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Singleton\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Builder\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Observer\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Strategy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\TemplateMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Iterator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Command\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Interpreter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Visitor\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Decorator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Adapter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Facade\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Proxy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Bridge\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Composite\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\MultiThread\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ThangLM/Proejcts/PatternDesign -BD:/ThangLM/Proejcts/PatternDesign/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ThangLM/Proejcts/PatternDesign/build/PatternDesign.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Command\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Interpreter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Iterator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Observer\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Strategy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\TemplateMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Behavioral\Visitor\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Builder\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\FactoryMethod\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Creational\Singleton\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\MultiThread\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Adapter\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Bridge\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Composite\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Decorator\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Facade\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\Structural\Proxy\CMakeLists.txt;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeCXXCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeRCCompiler.cmake;D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\3.20.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ThangLM\Proejcts\PatternDesign\build\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\FactoryMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Singleton\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Creational\Builder\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Observer\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Strategy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\TemplateMethod\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Iterator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Command\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Interpreter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Behavioral\Visitor\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Decorator\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Adapter\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Facade\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Proxy\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Bridge\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\Structural\Composite\CMakeFiles\generate.stamp;D:\ThangLM\Proejcts\PatternDesign\build\MultiThread\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

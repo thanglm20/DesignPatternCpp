@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Structural/Proxy/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "proxy::@d175104507500c00c80b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@d175104507500c00c80b",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "Structural/Proxy",
+		"source" : "Structural/Proxy"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

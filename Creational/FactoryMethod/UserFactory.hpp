@@ -28,9 +28,6 @@ Vehicle* Vehicle::create(VehicleType type, int id, std::string name, std::string
 }
 
 
-
-
-
 class UserFactory
 {
 private:
@@ -41,14 +38,14 @@ public:
     {
         m_vehicle = Vehicle::create(type, id, name, origin);
     }
-    ~UserFactory();
+    ~UserFactory(){
+        if(m_vehicle) delete m_vehicle;
+    }
     void show()
     {
         m_vehicle->show();
     }
 };
-
-
 
 
 #endif

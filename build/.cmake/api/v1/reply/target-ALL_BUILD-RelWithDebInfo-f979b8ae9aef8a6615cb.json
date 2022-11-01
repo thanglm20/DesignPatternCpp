@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Structural/Adapter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "adapter::@ec4b815e919a2c248543"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@ec4b815e919a2c248543",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "Structural/Adapter",
+		"source" : "Structural/Adapter"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

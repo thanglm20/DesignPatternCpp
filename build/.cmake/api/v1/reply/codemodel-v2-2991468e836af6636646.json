@@ -1,0 +1,3276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Creational/FactoryMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Creational/FactoryMethod",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "Creational/Singleton",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Creational/Singleton",
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"build" : "Creational/Builder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Creational/Builder",
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"build" : "Behavioral/Observer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Behavioral/Observer",
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"build" : "Behavioral/Strategy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Behavioral/Strategy",
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"build" : "Behavioral/TemplateMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Behavioral/TemplateMethod",
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"build" : "Behavioral/Iterator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Behavioral/Iterator",
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"build" : "Behavioral/Command",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Behavioral/Command",
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"build" : "Behavioral/Interpreter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Behavioral/Interpreter",
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"build" : "Behavioral/Visitor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Behavioral/Visitor",
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"build" : "Structural/Decorator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "Structural/Decorator",
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"build" : "Structural/Adapter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "Structural/Adapter",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "Structural/Facade",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "Structural/Facade",
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"build" : "Structural/Proxy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "Structural/Proxy",
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"build" : "Structural/Bridge",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Structural/Bridge",
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"build" : "Structural/Composite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Structural/Composite",
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"build" : "MultiThread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "MultiThread",
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PatternDesign",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "factory_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "singleton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "builder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "strategy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "template_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iterator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "command",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "interpreter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "visitor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "decorator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "adapter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "facade",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "proxy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "bridge",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "composite",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "multi_thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-ALL_BUILD-Debug-ca418e47d431b9c58267.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-4683a4dec66a8cdb2846.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-ALL_BUILD-Debug-911571aa17ae18784110.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@412b33a3d22313b2d574",
+					"jsonFile" : "target-ALL_BUILD-Debug-9fea8cc4c0da47b893d7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-ALL_BUILD-Debug-d6ac0fa70533e84edf1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-ALL_BUILD-Debug-208011635884230308eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-ALL_BUILD-Debug-1607cb6758d79dd14759.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-ALL_BUILD-Debug-415b95715ca447d04a7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-ALL_BUILD-Debug-ca02ab5573b2e0c97978.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@ec4b815e919a2c248543",
+					"jsonFile" : "target-ALL_BUILD-Debug-f979b8ae9aef8a6615cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f9e7265a9794931edc84",
+					"jsonFile" : "target-ALL_BUILD-Debug-cd8daa1b3a6c7f5899fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@804682888e2a37931a0a",
+					"jsonFile" : "target-ALL_BUILD-Debug-d02c53d3cbc19bc6b56c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@fe050544ce84892a3368",
+					"jsonFile" : "target-ALL_BUILD-Debug-d2f65deb97155e313f42.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d175104507500c00c80b",
+					"jsonFile" : "target-ALL_BUILD-Debug-cb2a53e4c033f324411f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@e68b42fd352c3908a166",
+					"jsonFile" : "target-ALL_BUILD-Debug-44241076eced730ecaad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@abf9245908933f0b77ce",
+					"jsonFile" : "target-ALL_BUILD-Debug-82f88618a353b77310d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-ALL_BUILD-Debug-67706347c3f892232857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@52491e09196b2e9d246a",
+					"jsonFile" : "target-ALL_BUILD-Debug-13ffebe0e42456e28d63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PatternDesign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PatternDesign-Debug-ca1747a2f2a34e9f703e.json",
+					"name" : "PatternDesign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-8da8bf7213a030ade3ae.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "adapter::@ec4b815e919a2c248543",
+					"jsonFile" : "target-adapter-Debug-25debad556910f58960f.json",
+					"name" : "adapter",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "bridge::@abf9245908933f0b77ce",
+					"jsonFile" : "target-bridge-Debug-9440dffe6dd732afdddf.json",
+					"name" : "bridge",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "builder::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-builder-Debug-9254ddd4fc59ccb3c239.json",
+					"name" : "builder",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "command::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-command-Debug-f75b921109f4f2722fcc.json",
+					"name" : "command",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "composite::@52491e09196b2e9d246a",
+					"jsonFile" : "target-composite-Debug-95e00f181ed6aa32a8c4.json",
+					"name" : "composite",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "decorator::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-decorator-Debug-5e4bb1214d65a21600c1.json",
+					"name" : "decorator",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "facade::@804682888e2a37931a0a",
+					"jsonFile" : "target-facade-Debug-afff6e30dc16ecf7cafe.json",
+					"name" : "facade",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "factory_method::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-factory_method-Debug-05bba421dc3a05ab5842.json",
+					"name" : "factory_method",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "interpreter::@412b33a3d22313b2d574",
+					"jsonFile" : "target-interpreter-Debug-3af66d5e8f02e1060819.json",
+					"name" : "interpreter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "iterator::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-iterator-Debug-4893ad984d113e2e64f7.json",
+					"name" : "iterator",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "multi_thread::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-multi_thread-Debug-2612dbaba91bed96e33d.json",
+					"name" : "multi_thread",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "observer::@f9e7265a9794931edc84",
+					"jsonFile" : "target-observer-Debug-b38bead4ffdd65014b6d.json",
+					"name" : "observer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "proxy::@d175104507500c00c80b",
+					"jsonFile" : "target-proxy-Debug-970458a9f0128782759b.json",
+					"name" : "proxy",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "singleton::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-singleton-Debug-d1ea7ee0a6e7bcdcf834.json",
+					"name" : "singleton",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strategy::@fe050544ce84892a3368",
+					"jsonFile" : "target-strategy-Debug-cdea2a3a1a3d8a73f50d.json",
+					"name" : "strategy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "template_method::@e68b42fd352c3908a166",
+					"jsonFile" : "target-template_method-Debug-30663622349c33c1a2e2.json",
+					"name" : "template_method",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "visitor::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-visitor-Debug-eb5a9fcf1908bf6df6be.json",
+					"name" : "visitor",
+					"projectIndex" : 10
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Creational/FactoryMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Creational/FactoryMethod",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "Creational/Singleton",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Creational/Singleton",
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"build" : "Creational/Builder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Creational/Builder",
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"build" : "Behavioral/Observer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Behavioral/Observer",
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"build" : "Behavioral/Strategy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Behavioral/Strategy",
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"build" : "Behavioral/TemplateMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Behavioral/TemplateMethod",
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"build" : "Behavioral/Iterator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Behavioral/Iterator",
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"build" : "Behavioral/Command",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Behavioral/Command",
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"build" : "Behavioral/Interpreter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Behavioral/Interpreter",
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"build" : "Behavioral/Visitor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Behavioral/Visitor",
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"build" : "Structural/Decorator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "Structural/Decorator",
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"build" : "Structural/Adapter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "Structural/Adapter",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "Structural/Facade",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "Structural/Facade",
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"build" : "Structural/Proxy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "Structural/Proxy",
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"build" : "Structural/Bridge",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Structural/Bridge",
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"build" : "Structural/Composite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Structural/Composite",
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"build" : "MultiThread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "MultiThread",
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PatternDesign",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "factory_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "singleton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "builder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "strategy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "template_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iterator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "command",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "interpreter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "visitor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "decorator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "adapter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "facade",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "proxy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "bridge",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "composite",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "multi_thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-ALL_BUILD-Release-ca418e47d431b9c58267.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-4683a4dec66a8cdb2846.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-ALL_BUILD-Release-911571aa17ae18784110.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@412b33a3d22313b2d574",
+					"jsonFile" : "target-ALL_BUILD-Release-9fea8cc4c0da47b893d7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-ALL_BUILD-Release-d6ac0fa70533e84edf1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-ALL_BUILD-Release-208011635884230308eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-ALL_BUILD-Release-1607cb6758d79dd14759.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-ALL_BUILD-Release-415b95715ca447d04a7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-ALL_BUILD-Release-ca02ab5573b2e0c97978.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@ec4b815e919a2c248543",
+					"jsonFile" : "target-ALL_BUILD-Release-f979b8ae9aef8a6615cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f9e7265a9794931edc84",
+					"jsonFile" : "target-ALL_BUILD-Release-cd8daa1b3a6c7f5899fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@804682888e2a37931a0a",
+					"jsonFile" : "target-ALL_BUILD-Release-d02c53d3cbc19bc6b56c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@fe050544ce84892a3368",
+					"jsonFile" : "target-ALL_BUILD-Release-d2f65deb97155e313f42.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d175104507500c00c80b",
+					"jsonFile" : "target-ALL_BUILD-Release-cb2a53e4c033f324411f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@e68b42fd352c3908a166",
+					"jsonFile" : "target-ALL_BUILD-Release-44241076eced730ecaad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@abf9245908933f0b77ce",
+					"jsonFile" : "target-ALL_BUILD-Release-82f88618a353b77310d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-ALL_BUILD-Release-67706347c3f892232857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@52491e09196b2e9d246a",
+					"jsonFile" : "target-ALL_BUILD-Release-13ffebe0e42456e28d63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PatternDesign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PatternDesign-Release-8c75361e1bf0aa415c51.json",
+					"name" : "PatternDesign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-8da8bf7213a030ade3ae.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "adapter::@ec4b815e919a2c248543",
+					"jsonFile" : "target-adapter-Release-bf38ff6f0cfccc546ae8.json",
+					"name" : "adapter",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "bridge::@abf9245908933f0b77ce",
+					"jsonFile" : "target-bridge-Release-59b0e0d52ff73f9be40c.json",
+					"name" : "bridge",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "builder::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-builder-Release-a51a1bfc322695237dc3.json",
+					"name" : "builder",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "command::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-command-Release-58d506b45185bc7b4439.json",
+					"name" : "command",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "composite::@52491e09196b2e9d246a",
+					"jsonFile" : "target-composite-Release-00cd7074d9334f2da87f.json",
+					"name" : "composite",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "decorator::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-decorator-Release-2af0169169b6b6a73a1e.json",
+					"name" : "decorator",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "facade::@804682888e2a37931a0a",
+					"jsonFile" : "target-facade-Release-59176d418910970e0717.json",
+					"name" : "facade",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "factory_method::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-factory_method-Release-6c5c9500441159cc5aaf.json",
+					"name" : "factory_method",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "interpreter::@412b33a3d22313b2d574",
+					"jsonFile" : "target-interpreter-Release-d832a52021d9130d7d98.json",
+					"name" : "interpreter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "iterator::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-iterator-Release-d43f7768eb3d5d5af77b.json",
+					"name" : "iterator",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "multi_thread::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-multi_thread-Release-d9927bd26eddd339d312.json",
+					"name" : "multi_thread",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "observer::@f9e7265a9794931edc84",
+					"jsonFile" : "target-observer-Release-230dee3aec9e5c025379.json",
+					"name" : "observer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "proxy::@d175104507500c00c80b",
+					"jsonFile" : "target-proxy-Release-dbd91e06655fbb34c5bf.json",
+					"name" : "proxy",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "singleton::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-singleton-Release-d88500d8335ec4b20969.json",
+					"name" : "singleton",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strategy::@fe050544ce84892a3368",
+					"jsonFile" : "target-strategy-Release-67abee467fd9a0121db3.json",
+					"name" : "strategy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "template_method::@e68b42fd352c3908a166",
+					"jsonFile" : "target-template_method-Release-0a7ed2ca23c7e7395e20.json",
+					"name" : "template_method",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "visitor::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-visitor-Release-827a6c016f1eef3b3a3d.json",
+					"name" : "visitor",
+					"projectIndex" : 10
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Creational/FactoryMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Creational/FactoryMethod",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "Creational/Singleton",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Creational/Singleton",
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"build" : "Creational/Builder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Creational/Builder",
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"build" : "Behavioral/Observer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Behavioral/Observer",
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"build" : "Behavioral/Strategy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Behavioral/Strategy",
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"build" : "Behavioral/TemplateMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Behavioral/TemplateMethod",
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"build" : "Behavioral/Iterator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Behavioral/Iterator",
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"build" : "Behavioral/Command",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Behavioral/Command",
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"build" : "Behavioral/Interpreter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Behavioral/Interpreter",
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"build" : "Behavioral/Visitor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Behavioral/Visitor",
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"build" : "Structural/Decorator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "Structural/Decorator",
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"build" : "Structural/Adapter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "Structural/Adapter",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "Structural/Facade",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "Structural/Facade",
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"build" : "Structural/Proxy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "Structural/Proxy",
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"build" : "Structural/Bridge",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Structural/Bridge",
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"build" : "Structural/Composite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Structural/Composite",
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"build" : "MultiThread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "MultiThread",
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PatternDesign",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "factory_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "singleton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "builder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "strategy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "template_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iterator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "command",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "interpreter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "visitor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "decorator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "adapter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "facade",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "proxy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "bridge",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "composite",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "multi_thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ca418e47d431b9c58267.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4683a4dec66a8cdb2846.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-911571aa17ae18784110.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@412b33a3d22313b2d574",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9fea8cc4c0da47b893d7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d6ac0fa70533e84edf1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-208011635884230308eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1607cb6758d79dd14759.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-415b95715ca447d04a7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ca02ab5573b2e0c97978.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@ec4b815e919a2c248543",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f979b8ae9aef8a6615cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f9e7265a9794931edc84",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cd8daa1b3a6c7f5899fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@804682888e2a37931a0a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d02c53d3cbc19bc6b56c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@fe050544ce84892a3368",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d2f65deb97155e313f42.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d175104507500c00c80b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cb2a53e4c033f324411f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@e68b42fd352c3908a166",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-44241076eced730ecaad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@abf9245908933f0b77ce",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-82f88618a353b77310d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-67706347c3f892232857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@52491e09196b2e9d246a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-13ffebe0e42456e28d63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PatternDesign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PatternDesign-MinSizeRel-8a8266c33542ad912ef4.json",
+					"name" : "PatternDesign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-8da8bf7213a030ade3ae.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "adapter::@ec4b815e919a2c248543",
+					"jsonFile" : "target-adapter-MinSizeRel-f1e7d19634990018283f.json",
+					"name" : "adapter",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "bridge::@abf9245908933f0b77ce",
+					"jsonFile" : "target-bridge-MinSizeRel-c2c3eb82918f55b7c6f6.json",
+					"name" : "bridge",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "builder::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-builder-MinSizeRel-3605ac8a6c2ac1cda2ac.json",
+					"name" : "builder",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "command::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-command-MinSizeRel-d011811bc7549e627382.json",
+					"name" : "command",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "composite::@52491e09196b2e9d246a",
+					"jsonFile" : "target-composite-MinSizeRel-ae8d54fcd325224699b2.json",
+					"name" : "composite",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "decorator::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-decorator-MinSizeRel-6773e89aac5ce29f48a9.json",
+					"name" : "decorator",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "facade::@804682888e2a37931a0a",
+					"jsonFile" : "target-facade-MinSizeRel-e41e98c1dfd3900e1a66.json",
+					"name" : "facade",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "factory_method::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-factory_method-MinSizeRel-df1f73c16aa14870fa98.json",
+					"name" : "factory_method",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "interpreter::@412b33a3d22313b2d574",
+					"jsonFile" : "target-interpreter-MinSizeRel-7ecf4b3601b229a69f9f.json",
+					"name" : "interpreter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "iterator::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-iterator-MinSizeRel-4fe87e2e03812991fcb9.json",
+					"name" : "iterator",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "multi_thread::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-multi_thread-MinSizeRel-f327425ce282e5064eda.json",
+					"name" : "multi_thread",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "observer::@f9e7265a9794931edc84",
+					"jsonFile" : "target-observer-MinSizeRel-e252451ee6ca72abb53c.json",
+					"name" : "observer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "proxy::@d175104507500c00c80b",
+					"jsonFile" : "target-proxy-MinSizeRel-1524e6b98ed0d81d8270.json",
+					"name" : "proxy",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "singleton::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-singleton-MinSizeRel-41d663b846c3037728cf.json",
+					"name" : "singleton",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strategy::@fe050544ce84892a3368",
+					"jsonFile" : "target-strategy-MinSizeRel-0b29a3f82abd8d0159a6.json",
+					"name" : "strategy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "template_method::@e68b42fd352c3908a166",
+					"jsonFile" : "target-template_method-MinSizeRel-341a3b31dbcea74bfd19.json",
+					"name" : "template_method",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "visitor::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-visitor-MinSizeRel-6bf724f555198bf395d1.json",
+					"name" : "visitor",
+					"projectIndex" : 10
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "Creational/FactoryMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Creational/FactoryMethod",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "Creational/Singleton",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Creational/Singleton",
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"build" : "Creational/Builder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Creational/Builder",
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"build" : "Behavioral/Observer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Behavioral/Observer",
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"build" : "Behavioral/Strategy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Behavioral/Strategy",
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"build" : "Behavioral/TemplateMethod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Behavioral/TemplateMethod",
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"build" : "Behavioral/Iterator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Behavioral/Iterator",
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"build" : "Behavioral/Command",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Behavioral/Command",
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"build" : "Behavioral/Interpreter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Behavioral/Interpreter",
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"build" : "Behavioral/Visitor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Behavioral/Visitor",
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"build" : "Structural/Decorator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "Structural/Decorator",
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"build" : "Structural/Adapter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "Structural/Adapter",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "Structural/Facade",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "Structural/Facade",
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"build" : "Structural/Proxy",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "Structural/Proxy",
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"build" : "Structural/Bridge",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Structural/Bridge",
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"build" : "Structural/Composite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Structural/Composite",
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"build" : "MultiThread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "MultiThread",
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PatternDesign",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "factory_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "singleton",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "builder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "strategy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "template_method",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iterator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "command",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "interpreter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "visitor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "decorator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "adapter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "facade",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "proxy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "bridge",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "composite",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "multi_thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ca418e47d431b9c58267.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4683a4dec66a8cdb2846.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-911571aa17ae18784110.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@412b33a3d22313b2d574",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9fea8cc4c0da47b893d7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d6ac0fa70533e84edf1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-208011635884230308eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1607cb6758d79dd14759.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-415b95715ca447d04a7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ca02ab5573b2e0c97978.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@ec4b815e919a2c248543",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f979b8ae9aef8a6615cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f9e7265a9794931edc84",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cd8daa1b3a6c7f5899fc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@804682888e2a37931a0a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d02c53d3cbc19bc6b56c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@fe050544ce84892a3368",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d2f65deb97155e313f42.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d175104507500c00c80b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cb2a53e4c033f324411f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@e68b42fd352c3908a166",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-44241076eced730ecaad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@abf9245908933f0b77ce",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-82f88618a353b77310d4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-67706347c3f892232857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@52491e09196b2e9d246a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-13ffebe0e42456e28d63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PatternDesign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PatternDesign-RelWithDebInfo-1a98a84762e499945796.json",
+					"name" : "PatternDesign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-8da8bf7213a030ade3ae.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "adapter::@ec4b815e919a2c248543",
+					"jsonFile" : "target-adapter-RelWithDebInfo-1361429e764b945100a6.json",
+					"name" : "adapter",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "bridge::@abf9245908933f0b77ce",
+					"jsonFile" : "target-bridge-RelWithDebInfo-4abe1c4f777a260b1837.json",
+					"name" : "bridge",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "builder::@50febd738065fcd4b1e3",
+					"jsonFile" : "target-builder-RelWithDebInfo-96056941b762970ef48c.json",
+					"name" : "builder",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "command::@ce8df26fafee4b68df53",
+					"jsonFile" : "target-command-RelWithDebInfo-728208d7899f80493c93.json",
+					"name" : "command",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "composite::@52491e09196b2e9d246a",
+					"jsonFile" : "target-composite-RelWithDebInfo-7548e7ffeb8e668aa513.json",
+					"name" : "composite",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "decorator::@b4de40f8aca4343c2e12",
+					"jsonFile" : "target-decorator-RelWithDebInfo-d53195f0756613a03802.json",
+					"name" : "decorator",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "facade::@804682888e2a37931a0a",
+					"jsonFile" : "target-facade-RelWithDebInfo-91a297af8dc3eeff26cf.json",
+					"name" : "facade",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "factory_method::@a609bfa4ac85cbbf2ff4",
+					"jsonFile" : "target-factory_method-RelWithDebInfo-854471c324df6806b033.json",
+					"name" : "factory_method",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "interpreter::@412b33a3d22313b2d574",
+					"jsonFile" : "target-interpreter-RelWithDebInfo-8bf6cf75050eb3d3c15f.json",
+					"name" : "interpreter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "iterator::@d669e51ae5da3bea948d",
+					"jsonFile" : "target-iterator-RelWithDebInfo-3681ebff03cd9e704030.json",
+					"name" : "iterator",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "multi_thread::@434d96afdfc15791b5d2",
+					"jsonFile" : "target-multi_thread-RelWithDebInfo-6588ebe07e6d3afe9767.json",
+					"name" : "multi_thread",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "observer::@f9e7265a9794931edc84",
+					"jsonFile" : "target-observer-RelWithDebInfo-81140d68d7c6e7fc20d1.json",
+					"name" : "observer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "proxy::@d175104507500c00c80b",
+					"jsonFile" : "target-proxy-RelWithDebInfo-b93fb4594073b42a8683.json",
+					"name" : "proxy",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "singleton::@eda58ec8476baf3f0683",
+					"jsonFile" : "target-singleton-RelWithDebInfo-1484db139c77715d163e.json",
+					"name" : "singleton",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strategy::@fe050544ce84892a3368",
+					"jsonFile" : "target-strategy-RelWithDebInfo-27eaa756e549624e5fd6.json",
+					"name" : "strategy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "template_method::@e68b42fd352c3908a166",
+					"jsonFile" : "target-template_method-RelWithDebInfo-0d0eb86ffef21081b549.json",
+					"name" : "template_method",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "visitor::@7ff52e8b28b6a21b0ffd",
+					"jsonFile" : "target-visitor-RelWithDebInfo-af3d4e3c4e73f99f85af.json",
+					"name" : "visitor",
+					"projectIndex" : 10
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ThangLM/Proejcts/PatternDesign/build",
+		"source" : "D:/ThangLM/Proejcts/PatternDesign"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

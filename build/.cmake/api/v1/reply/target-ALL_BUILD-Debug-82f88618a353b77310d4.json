@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Structural/Bridge/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "bridge::@abf9245908933f0b77ce"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@abf9245908933f0b77ce",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "Structural/Bridge",
+		"source" : "Structural/Bridge"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

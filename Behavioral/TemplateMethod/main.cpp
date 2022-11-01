@@ -98,12 +98,12 @@ public:
 int main()
 {
     std::cout << "Template Method Pattern Design" << std::endl;
-    Shape* shape1 = new Circle();
-    shape1->draw(); 
-    Shape* shape2 = new Rectangle();
-    shape2->draw(); 
-    Shape* shape3 = new Triangle();
-    shape3->draw(); 
+    Shape *shape1 = new Circle();
+    shape1->draw();
+    Shape *shape2 = new Rectangle();
+    shape2->draw();
+    Shape *shape3 = new Triangle();
+    shape3->draw();
 
     delete shape1;
     delete shape2;

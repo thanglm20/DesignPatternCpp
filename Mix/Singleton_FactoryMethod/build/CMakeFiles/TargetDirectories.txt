@@ -1,0 +1,3 @@
+D:/ThangLM/Proejcts/PatternDesign/Mix/Singleton_FactoryMethod/build/CMakeFiles/singleton_factory.dir
+D:/ThangLM/Proejcts/PatternDesign/Mix/Singleton_FactoryMethod/build/CMakeFiles/edit_cache.dir
+D:/ThangLM/Proejcts/PatternDesign/Mix/Singleton_FactoryMethod/build/CMakeFiles/rebuild_cache.dir

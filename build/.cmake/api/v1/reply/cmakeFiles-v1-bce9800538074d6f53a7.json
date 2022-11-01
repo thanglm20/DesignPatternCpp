@@ -1,0 +1,191 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.20.0-rc1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.20.0-rc1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.20.0-rc1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.20.0-rc1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "Creational/FactoryMethod/CMakeLists.txt"
+		},
+		{
+			"path" : "Creational/Singleton/CMakeLists.txt"
+		},
+		{
+			"path" : "Creational/Builder/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Observer/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Strategy/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/TemplateMethod/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Iterator/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Command/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Interpreter/CMakeLists.txt"
+		},
+		{
+			"path" : "Behavioral/Visitor/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Decorator/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Adapter/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Facade/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Proxy/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Bridge/CMakeLists.txt"
+		},
+		{
+			"path" : "Structural/Composite/CMakeLists.txt"
+		},
+		{
+			"path" : "MultiThread/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/ThangLM/Proejcts/PatternDesign/build",
+		"source" : "D:/ThangLM/Proejcts/PatternDesign"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

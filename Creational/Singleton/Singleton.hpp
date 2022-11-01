@@ -42,8 +42,6 @@ Singleton*  Singleton::getInstance(std::string name)
     else
         std::cout << "Existing object Singleton, return it" << std::endl;
     m_mutex.unlock();
-    
-
     return m_instance;
 }
 
