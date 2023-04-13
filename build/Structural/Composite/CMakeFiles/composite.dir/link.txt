@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/composite.dir/main.cpp.o  -o composite  -lpthread 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/composite.dir/main.cpp.o  -o composite  -lpthread 

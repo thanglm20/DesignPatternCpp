@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/bridge.dir/main.cpp.o  -o bridge  -lpthread 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/bridge.dir/main.cpp.o  -o bridge  -lpthread 

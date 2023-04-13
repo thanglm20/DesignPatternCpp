@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/proxy.dir/main.cpp.o  -o proxy 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/proxy.dir/main.cpp.o  -o proxy 

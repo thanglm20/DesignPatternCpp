@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/decorator.dir/main.cpp.o  -o decorator 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/decorator.dir/main.cpp.o  -o decorator 

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/strategy.dir/main.cpp.o  -o strategy 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/strategy.dir/main.cpp.o  -o strategy 

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/iterator.dir/main.cpp.o  -o iterator 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/iterator.dir/main.cpp.o  -o iterator 

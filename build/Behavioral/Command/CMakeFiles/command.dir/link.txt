@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/command.dir/main.cpp.o  -o command 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/command.dir/main.cpp.o  -o command 

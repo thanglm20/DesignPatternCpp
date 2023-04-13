@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/factory_method.dir/main.cpp.o  -o factory_method 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/factory_method.dir/main.cpp.o  -o factory_method 

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/facade.dir/main.cpp.o  -o facade 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/facade.dir/main.cpp.o  -o facade 

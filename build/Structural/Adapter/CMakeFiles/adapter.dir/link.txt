@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/adapter.dir/main.cpp.o  -o adapter  -lpthread 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/adapter.dir/main.cpp.o  -o adapter  -lpthread 

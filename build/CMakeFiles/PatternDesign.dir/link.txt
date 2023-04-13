@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/PatternDesign.dir/main.cpp.o  -o PatternDesign 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/PatternDesign.dir/main.cpp.o  -o PatternDesign 

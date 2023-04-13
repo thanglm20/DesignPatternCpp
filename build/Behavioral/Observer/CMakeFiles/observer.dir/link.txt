@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/observer.dir/main.cpp.o  -o observer  -lpthread 
+/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/observer.dir/main.cpp.o  -o observer  -lpthread 
