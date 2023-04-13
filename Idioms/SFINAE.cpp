@@ -31,14 +31,15 @@ call_foo(T& obj)
 
 // Example usage:
 struct MyType {
-    void foo() { std::cout << "MyType::foo()" << std::endl; }
+    void foo() { std::cout << "MyType::foo()" << std::endl;}
 };
 
 template <typename T, 
-typename std::enable_if_t<std::is_integral<T>::value, int> = true>
+typename std::enable_if_t<std::is_integral<T>::value, bool> = true> // <typename bool = true>
 T sum(T a, T b){
     return (a + b);
 }
+
 
 int main()
 {
@@ -48,6 +49,8 @@ int main()
     int i = 42;
     // call_foo(i);   // This will not compile, because int has no member function called "foo"
     sum(1, 2);
-    // sum(1, 0.0);// compile error
+    sum(1.0, 0.0);// compile error
+
+
     return 0;
 }
