@@ -1,4 +1,4 @@
-# PatternDesign
+# Design Pattern in C++
 
 # Build & Run
 ```
