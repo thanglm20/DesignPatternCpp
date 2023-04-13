@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall --std=c++14 -O0 -fPIC -fsanitize=address   CMakeFiles/interpreter.dir/main.cpp.o  -o interpreter 
