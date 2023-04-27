@@ -41,31 +41,29 @@ auto sum(T t, T2 t2) {
     return t + t2;
 }
 
-struct B
-{
-    float a;
-    B(){}
+class C{
+public:
+    C(){}
+    ~C(){}
+    static int get(void* arg){
+        auto ptr = (C*)(arg);
+        return ptr->data;
+    }
+    static int st_data;
+private:
+    int data = 10;
+
+
 };
+int C::st_data = 20;
 
 int main() {
 
-    std::cout << '\n';
-    std::cout << typeid(6).name() << '\n';   
-    std::cout << typeid(sum(5.5, 5.5)).name() << '\n';     // double
-    std::cout << typeid(sum(5.5, true)).name() << '\n';    // double
-    std::cout << typeid(sum(true, 5.5)).name() << '\n';    // double
-    std::cout << typeid(sum(true, false)).name() << '\n';  // bool
 
-    std::cout << '\n';
+    C c;
+//    std::cout << c.get(&c) << std::endl;
+    std::cout << C::get(&c) << std::endl;
+    std::cout << C::st_data << std::endl;
 
-    std::vector<B> vec;
-    B b1;
-    B b2;
-    vec.push_back(b1);
-    vec.push_back(b2);
-
-    std::cout << &vec.at(0)<< std::endl;
-    std::cout << &vec.at(1)<< std::endl;
-    std::cout << &vec.at(6)<< std::endl;
 
 }

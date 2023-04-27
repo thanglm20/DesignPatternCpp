@@ -49,7 +49,7 @@ int main()
     int i = 42;
     // call_foo(i);   // This will not compile, because int has no member function called "foo"
     sum(1, 2);
-    sum(1.0, 0.0);// compile error
+//    sum(1.0, 0.0);// compile error
 
 
     return 0;

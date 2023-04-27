@@ -22,7 +22,7 @@ void call()
 void call1()
 {
 
-   Singleton* singleton;
+    Singleton* singleton;
     while(1)
     {
         singleton = Singleton::getInstance("Thread 1");

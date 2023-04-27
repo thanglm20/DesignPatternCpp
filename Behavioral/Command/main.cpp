@@ -13,6 +13,7 @@ class Device
 {
     public:
     Device(){}
+    virtual ~Device() {}
     virtual void on() = 0;
     virtual void off() = 0;
 
@@ -22,6 +23,7 @@ class Light : public Device
 
 public:
     Light() {}
+    ~Light() override {}
     void on() override
     {
         std::cout << "Turn on light\n";
@@ -37,11 +39,12 @@ class Fan : public Device
 
 public:
     Fan() {}
-    void on()
+    ~Fan() override {}
+    void on() override
     {
         std::cout << "Turn on Fan\n";
     }
-    void off()
+    void off() override
     {
         std::cout << "Turn off Fan\n";
     }
@@ -52,7 +55,8 @@ public:
 class Command
 {
 public:
-    Command() {}
+    explicit Command() {}
+    virtual ~Command() {}
     virtual void execute() = 0;
 };
 
@@ -61,7 +65,7 @@ class OnCommand : public Command
     std::shared_ptr<Device> m_device;
 
 public:
-    OnCommand( const std::shared_ptr<Device> &device) : m_device(device)
+    explicit OnCommand( const std::shared_ptr<Device> &device) : m_device(device)
     {
     }
     void execute() override
@@ -74,7 +78,7 @@ class OffCommand : public Command
     std::shared_ptr<Device> m_device;
 
 public:
-    OffCommand(const std::shared_ptr<Device> &device) : m_device(device)
+    explicit OffCommand(const std::shared_ptr<Device> &device) : m_device(device)
     {
     }
     void execute() override
@@ -89,8 +93,8 @@ private:
     std::shared_ptr<Command> m_command;
 
 public:
-    RemoteButton() {}
-    void setCommand(std::shared_ptr<Command> cmd)
+    explicit RemoteButton() {}
+    void setCommand(const std::shared_ptr<Command>& cmd)
     {
         m_command = cmd;
     }
@@ -109,7 +113,7 @@ int main()
     auto light = std::make_shared<Light>();
     auto fan = std::make_shared<Fan>();
 
-    RemoteButton* btn = new RemoteButton();
+    auto btn = new RemoteButton();
 
     auto cmd1 = std::make_shared<OnCommand>(light);
     btn->setCommand(cmd1);
@@ -119,7 +123,6 @@ int main()
     btn->setCommand(cmd2);
     btn->pressButton();
 
-    int a= 4;
-    print(a);
+    delete btn;
     return 0;
 }

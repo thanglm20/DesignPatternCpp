@@ -7,30 +7,30 @@
 
 class BeverageDecorator : public Beverage
 {
-    private:
+private:
     Beverage* m_beverage;
-    public:
-    BeverageDecorator(Beverage* beverage)
-    : m_beverage(beverage)
+public:
+    explicit BeverageDecorator(Beverage* beverage)
+            : m_beverage(beverage)
     {}
     ~BeverageDecorator(){}
-    float cost()
+    float cost() override
     {
         return m_beverage->cost();
     }
-    
+
 };
 
 class DecorateIce : public BeverageDecorator
 {
-    private:
+private:
     float m_cost = 5.0;
 
-    public:
-    DecorateIce(Beverage* beverage) : BeverageDecorator(beverage)
+public:
+    explicit DecorateIce(Beverage* beverage) : BeverageDecorator(beverage)
     {}
-    ~DecorateIce(){}
-    float cost()
+    ~DecorateIce() override {}
+    float cost() override
     {
         std::cout << "added ice,  price + " << m_cost <<  std::endl;
         return BeverageDecorator::cost() + m_cost;
@@ -38,13 +38,13 @@ class DecorateIce : public BeverageDecorator
 };
 class DecorateSugar : public BeverageDecorator
 {
-    private:
+private:
     float m_cost = 10.0;
-    public:
-    DecorateSugar(Beverage* beverage) : BeverageDecorator(beverage)
+public:
+    explicit DecorateSugar(Beverage* beverage) : BeverageDecorator(beverage)
     {}
-    ~DecorateSugar(){}
-    float cost()
+    ~DecorateSugar() override{}
+    float cost() override
     {
         std::cout << "added sugar,  price + " << m_cost <<  std::endl;
         return BeverageDecorator::cost() + m_cost;
@@ -53,16 +53,16 @@ class DecorateSugar : public BeverageDecorator
 
 class DecorateSize : public BeverageDecorator
 {
-    private:
+private:
 
     int m_size;
-    public:
-    DecorateSize(Beverage* beverage, int size)
-    : 
-    BeverageDecorator(beverage), m_size(size)
+public:
+    explicit DecorateSize(Beverage* beverage, int size)
+            :
+            BeverageDecorator(beverage), m_size(size)
     {}
     ~DecorateSize(){}
-    float cost()
+    float cost() override
     {
         if(m_size == 0)
         {

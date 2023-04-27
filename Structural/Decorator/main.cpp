@@ -18,11 +18,11 @@ int main()
     Beverage* beverage = new MilkTea();
 
     // decorating
-    DecorateIce* ice = new DecorateIce(beverage);
-    DecorateSugar* sugar = new DecorateSugar(ice);
-    DecorateSize* size = new DecorateSize(sugar, 1);
+    auto ice = new DecorateIce(beverage);
+    auto sugar = new DecorateSugar(beverage);
+    auto size = new DecorateSize(beverage, 1);
     
-    std::cout << "Cost: " << size->cost() << std::endl;
+    std::cout << size->cost() << std::endl;
 
     delete beverage;
     delete ice;

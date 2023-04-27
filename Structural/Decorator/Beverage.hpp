@@ -9,8 +9,8 @@ private:
     std::string m_description = "Beverage: ";
 public:
     Beverage(){}
-    ~Beverage(){}
-    std::string getDescription()
+    virtual ~Beverage(){}
+    virtual std::string getDescription()
     {
         std::cout << "========Beverage==========" << std::endl;
         return "Beverage";
@@ -23,12 +23,12 @@ class JuiceFruit : public Beverage
     
 public:
     JuiceFruit(){}
-    ~JuiceFruit(){}
-    std::string getDescription()
+    ~JuiceFruit() override {}
+    std::string getDescription() override
     {
         return "JuiceFruit";
     } 
-    float cost()
+    float cost() override
     {
         std::cout << "Juice fruit price: 30" << std::endl;
         return 30.0;
@@ -40,13 +40,13 @@ class MilkTea : public Beverage
     
 public:
     MilkTea(){}
-    ~MilkTea(){}
-    std::string getDescription()
+    ~MilkTea() override {}
+    std::string getDescription() override
     {
         return "MilkTea";
 
     } 
-    float cost()
+    float cost() override
     {
         std::cout << "Milk tea price: 50" << std::endl;
         return 50.0;
