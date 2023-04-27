@@ -19,8 +19,8 @@ int main()
 
     // decorating
     auto ice = new DecorateIce(beverage);
-    auto sugar = new DecorateSugar(beverage);
-    auto size = new DecorateSize(beverage, 1);
+    auto sugar = new DecorateSugar(ice);
+    auto size = new DecorateSize(sugar, 1);
     
     std::cout << size->cost() << std::endl;
 
