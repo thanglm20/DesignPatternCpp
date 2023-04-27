@@ -21,7 +21,7 @@ int main()
     auto ice = new DecorateIce(beverage);
     auto sugar = new DecorateSugar(ice);
     auto size = new DecorateSize(sugar, 1);
-    
+
     std::cout << size->cost() << std::endl;
 
     delete beverage;
