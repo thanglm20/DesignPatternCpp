@@ -18,6 +18,7 @@ add_subdirectory(Behavioral/Iterator)
 add_subdirectory(Behavioral/Command)
 add_subdirectory(Behavioral/Interpreter)
 add_subdirectory(Behavioral/Visitor)
+add_subdirectory(Behavioral/State)
 
 add_subdirectory(Structural/Decorator)
 add_subdirectory(Structural/Adapter)
@@ -29,5 +30,6 @@ add_subdirectory(Structural/Composite)
 add_subdirectory(MultiThread)
 
 add_subdirectory(Idioms)
+add_subdirectory(Metaprogramming)
 
 add_executable(${PROJECT_NAME} main.cpp)
