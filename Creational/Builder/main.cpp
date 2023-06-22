@@ -10,7 +10,8 @@ allow it to be constructed in steps.
 #include <iostream>
 #include <vector>
 #include "Client.hpp"
-
+#include <thread>
+#include <chrono>
 int main()
 {
     std::cout << "Builder Pattern Design" << std::endl;
@@ -20,8 +21,11 @@ int main()
         Builder* builder = new Builder();
 
         builder->setBody(std::make_unique<Body>("Toyota"))
-            .setEngine(std::make_unique<Engine>(Engine("Audi")))
-            .setWheel(std::make_unique<Wheel>(Wheel("Mecedes")));
+            .setEngine(std::make_unique<Engine>(Engine("Audi")));
+        std::this_thread::sleep_for(std::chrono::microseconds(500));
+
+        // build in other steps
+        builder->setWheel(std::make_unique<Wheel>(Wheel("Mecedes")));
         client.addBuilder(builder);
     }
     client.getCars();

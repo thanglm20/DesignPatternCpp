@@ -4,7 +4,8 @@ cmake_minimum_required(VERSION 3.10)
 
 project(proxy)
 
-file(GLOB SOURCES *.cpp)
-
-add_executable(${PROJECT_NAME} ${SOURCES})
+foreach (NAME_FILE  RemoteProxy VirtualProxy)
+    message("Proxy is buidling file: ${NAME_FILE}.cpp")
+    add_executable(${NAME_FILE} ${NAME_FILE}.cpp)
+endforeach ()
 
