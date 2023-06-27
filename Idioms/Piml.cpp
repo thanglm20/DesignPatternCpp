@@ -40,5 +40,11 @@ int main(){
     
     Executor exe;
     exe.execute();
+    enum struct Color: char {
+        red = 125,
+        blue,
+        green
+    };
+
     return 0;
 }

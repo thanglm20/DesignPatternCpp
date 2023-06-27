@@ -6,7 +6,7 @@ project(idioms)
 
 file(GLOB SOURCES *.cpp)
 
-set(SOURCES Piml SFINAE)
+set(SOURCES Piml SFINAE callback_state)
 foreach (var ${SOURCES})
     message("Idioms source ${var}")
     add_executable(${var} ${var}.cpp)
