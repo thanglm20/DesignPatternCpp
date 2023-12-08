@@ -11,7 +11,7 @@
 class Worker{
 public:
     Worker (){}
-    ~Worker(){ stop(); }
+    virtual ~Worker(){ stop(); }
 
     void start(){
         _thread = std::thread(std::bind(&Worker::run, this));
