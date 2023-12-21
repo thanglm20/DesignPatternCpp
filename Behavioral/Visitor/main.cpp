@@ -1,3 +1,9 @@
+
+/*
+
+ Add workers or tasks to a heirarchy classes without modifying classes
+*/
+
 #include <iostream>
 #include <list>
 #include <memory>
