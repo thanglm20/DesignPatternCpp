@@ -2,6 +2,13 @@
 /*
 
  Add workers or tasks to a heirarchy classes without modifying classes
+ for example, have N classes A, B, C, D derived from Base class
+ and want to add more functions or task to these classes without modifying them
+
+ Solve:
+  Create visitor(Base base)
+  Add accept to each classes
+ and then implement function in Visitor to do on Base class
 */
 
 #include <iostream>
