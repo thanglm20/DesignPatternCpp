@@ -5,6 +5,13 @@ Encapsulate a request as an object, thereby letting you parameterizeclients with
 different requests, queue or log requests, and supportundoable operations.
  */
 
+/*
+    Object 
+    Time 1: Set Command on Worker 1 -> pass to Object -> execute
+    Time 2: Set Command on Worker 2 -> pass to Object -> execute 
+
+*/
+
 #include <iostream>
 #include <vector>
 #include <memory>
