@@ -6,6 +6,9 @@ different requests, queue or log requests, and supportundoable operations.
  */
 
 /*
+    Problem:
+    There are 1->N workers and only one Ojbect to call worker each time
+    Solve: Create a Command on these workers and pass to Object
     Object 
     Time 1: Set Command on Worker 1 -> pass to Object -> execute
     Time 2: Set Command on Worker 2 -> pass to Object -> execute 
