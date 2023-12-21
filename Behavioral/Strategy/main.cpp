@@ -21,7 +21,10 @@ algorithm (pricing 'strategy') at run-time.
 – and make them interchangeable - and define a common interface (Strategy) through which
 algorithms can be (inter)changed at run-time.
 */
-
+/*
+    Don't pass object with Strategy
+    Only set Strategy to do sth on existing workers
+*/
 #include <functional>
 #include "Order.hpp"
 #include "DiscountStrategy.hpp"
