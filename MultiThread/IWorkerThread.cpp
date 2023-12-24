@@ -45,7 +45,21 @@ public:
     bool is_running(){
         return !_stop.load();
     }
-
+    void set_task(std::packaged_task<void(void))>&& task){
+        _task = std::move(task);
+    }
+    void wait_task(){
+        {
+            std::unique_lock<std::mutex> l(_mutex_task);
+            _cond_task.wait(l);
+        }
+    }
+    void do_tasks(){
+        while(is_running()){
+            wait_task();
+            _task();
+        }
+    }
 public:
     virtual void run() = 0;
 private:
@@ -54,6 +68,9 @@ private:
     std::condition_variable _cond;
     std::mutex _mutex;
     std::atomic<bool> _is_paused{false};
+    std::condition_variable _cond_task;
+    std::mutex _mutex_task;
+    std::packaged_task<void(void))> _task;
 };
 
 
